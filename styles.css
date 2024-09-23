@@ -1,0 +1,27 @@
+/* Flexbox layout for side-by-side plots */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Individual plot container */
+.plot-container {
+    width: 50%; /* Adjust width to allow side-by-side */
+}
+
+/* Add some margin for titles */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paragraph-container {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; 
+}

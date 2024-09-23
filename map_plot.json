@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Births per 1,000 Population by State in 2022",
-  "width": 500,
+  "width": 420,
   "height": 300,
   "projection": {"type": "equalEarth"},
   "data": {
@@ -23,6 +23,10 @@
     {
       "calculate": "datum.annual_birth / datum.population * 1000", 
       "as": "births_per_1000"
+    },
+    {
+      "calculate": "ceil(datum.births_per_1000)", 
+      "as": "births_per_1000_ceiling"
     }
   ],
   "mark": {"type": "geoshape","stroke": "black"},
@@ -41,6 +45,7 @@
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "State"}, 
       {"field": "births_per_1000", "type": "quantitative", "title": "Births per 1,000 Population"},
+      {"field": "births_per_1000_ceiling", "type": "quantitative", "title": "Estimated Births per 1,000 Population"},
       {"field": "annual_birth", "type": "quantitative", "title": "Total Births"},
       {"field": "population", "type": "quantitative", "title": "Population"}
     ]
