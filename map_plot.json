@@ -5,7 +5,7 @@
   "height": 300,
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_A2/refs/heads/main/ne_10m_admin_1_states_provinces.json",  
+    "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/ne_10m_admin_1_states_provinces.json",  
     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
   },
   "transform": [
@@ -13,7 +13,7 @@
       "lookup": "properties.name", 
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_A2/refs/heads/main/df_2022%20(1).csv",  
+          "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/df_2022.csv",  
           "format": {"type": "csv"}
         },
         "key": "state",  
@@ -25,7 +25,7 @@
       "as": "births_per_1000"
     }
   ],
-  "mark": {"type": "geoshape"},
+  "mark": {"type": "geoshape","stroke": "black"},
   "encoding": {
     "color": {
       "field": "births_per_1000",
