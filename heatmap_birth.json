@@ -1,0 +1,57 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Annual Births per State (2012-2022)",
+    "width": 345,
+    "height": 345,
+    "data": {
+      "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_overall.csv",  
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "calculate": "year(datum.date)", 
+        "as": "year"
+      },
+      {
+        "filter": "datum.year >= 2012 && datum.year <= 2022"  
+      }
+    ],
+    "mark": {
+      "type": "rect",
+      "stroke": "black",         
+      "strokeWidth": 0.09         
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "state",
+        "type": "nominal",
+        "title": "State"
+      },
+      "color": {
+        "field": "annual_birth",
+        "type": "quantitative",
+        "title": "Number of Births",
+        "scale": {
+          "domain": [0, 20000, 40000, 60000, 80000, 100000, 120000],
+          "range": ["#e0f3db", "#a8ddb5", "#43a2ca", "#0868ac", "#1d4e96", "#08306b"]  
+        },
+        "legend": {
+          "title": "Number of Births",
+          "labelFontSize": 12,
+          "titleFontSize": 14,
+          "orient": "right"  
+        }
+      },
+      "tooltip": [
+        {"field": "state", "type": "nominal", "title": "State"},
+        {"field": "year", "type": "ordinal", "title": "Year"},
+        {"field": "annual_birth", "type": "quantitative", "title": "Births"}
+      ]
+    }
+  }
+  
