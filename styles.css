@@ -17,11 +17,11 @@
 }
 
 .plot-container-2 {
-    width: 100%; /* Adjust width to allow side-by-side */
-    height : 50%;
+    width: 100%; /* Full width for the line plot */
+    height : 50%; /* Adjust height as needed */
     border: 1px solid #ccc;
     border-radius: 15px;
-    margin: 4px;
+    margin: 4px; /* Center horizontally */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 }
