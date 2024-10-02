@@ -1,0 +1,67 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Percentage of Male and Female Deaths by State in 2022",
+    "width": 460,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_gender.csv",  
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "filter": "year(datum.date) == 2022"  
+      },
+      {
+        "aggregate": [{"op": "sum", "field": "annual_death", "as": "total_deaths"}],
+        "groupby": ["state", "sex"]  
+      },
+      {
+        "joinaggregate": [{"op": "sum", "field": "total_deaths", "as": "state_total"}],
+        "groupby": ["state"]  
+      },
+      {
+        "calculate": "datum.total_deaths / datum.state_total",
+        "as": "percentage_deaths"  
+      }
+    ],
+    "mark": {
+      "type": "bar",
+      "stroke": "black",      
+      "strokeWidth": 0.5       
+    },
+    "encoding": {
+      "x": {
+        "field": "state",
+        "type": "nominal",
+        "title": "State",
+        "axis": {"labelAngle": -45}
+      },
+      "y": {
+        "field": "percentage_deaths",
+        "type": "quantitative",
+        "title": "Percentage of Total Deaths",
+        "stack": "normalize"  
+      },
+      "color": {
+        "field": "sex",
+        "type": "nominal",
+        "title": "Gender",
+        "scale": {
+          "range": ["#ff9999", "#99ccff"] 
+        }
+      },
+      "tooltip": [
+        {"field": "state", "type": "nominal", "title": "State"},
+        {"field": "sex", "type": "nominal", "title": "Gender"},
+        {"field": "total_deaths", "type": "quantitative", "title": "Deaths (Male/Female)"},
+        {"field": "state_total", "type": "quantitative", "title": "Total Deaths in State"},
+        {
+          "field": "percentage_deaths",
+          "type": "quantitative",
+          "title": "Percentage of Total Deaths",
+          "format": ".1%"
+        }
+      ]
+    }
+  }
+  

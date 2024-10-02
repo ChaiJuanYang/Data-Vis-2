@@ -1,0 +1,67 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Percentage of Male and Female Births by State in 2022",
+    "width": 460,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_gender.csv",  
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "filter": "year(datum.date) == 2022"  
+      },
+      {
+        "aggregate": [{"op": "sum", "field": "annual_birth", "as": "total_births"}],
+        "groupby": ["state", "sex"]  
+      },
+      {
+        "joinaggregate": [{"op": "sum", "field": "total_births", "as": "state_total"}],
+        "groupby": ["state"]  
+      },
+      {
+        "calculate": "datum.total_births / datum.state_total",
+        "as": "percentage_births"  
+      }
+    ],
+    "mark": {
+      "type": "bar",
+      "stroke": "black",      
+      "strokeWidth": 0.5       
+    },
+    "encoding": {
+      "x": {
+        "field": "state",
+        "type": "nominal",
+        "title": "State",
+        "axis": {"labelAngle": -45}
+      },
+      "y": {
+        "field": "percentage_births",
+        "type": "quantitative",
+        "title": "Percentage of Total Births",
+        "stack": "normalize"  
+      },
+      "color": {
+        "field": "sex",
+        "type": "nominal",
+        "title": "Gender",
+        "scale": {
+          "range": ["#ff9999", "#99ccff"]
+        }
+      },
+      "tooltip": [
+        {"field": "state", "type": "nominal", "title": "State"},
+        {"field": "sex", "type": "nominal", "title": "Gender"},
+        {"field": "total_births", "type": "quantitative", "title": "Births (Male/Female)"},
+        {"field": "state_total", "type": "quantitative", "title": "Total Births in State"},  
+        {
+          "field": "percentage_births",
+          "type": "quantitative",
+          "title": "Percentage of Total Births",
+          "format": ".1%"
+        }
+      ]
+    }
+  }
+  

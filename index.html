@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Total Births in each State of Malaysia</title>
+    <title>Total Births and Deaths in each State of Malaysia</title>
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script> 
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script> 
@@ -16,50 +16,56 @@
 <body>
     <div class="header">
         <h1>Demographic Trends in Malaysia: Birth and Death Rates by State</h1>
-    <div>
+    </div>
 
-        <div class="container">
-            <!-- Births plot -->
-            <div class="plot-container">
-                <h2>Total Births in each State in 2022</h2>
-                <div id="map_plot"></div>
-                <h2>Donut Chart of Percentage of Births by State in 2022</h2>
-                <div id="donut_birth"></div>
-            </div>
-            
-            <!-- Deaths plot -->
-            <div class="plot-container">
-                <h2>Total Deaths in each State in 2022</h2>
-                <div id="map_plot_death"></div>
-                <h2>Donut Chart of Percentage of Deaths by State in 2022</h2>
-                <div id="donut_death"></div>
-            </div>
+    <div class="container">
+        <!-- Births plot -->
+        <div class="plot-container">
+            <h2>Total Births in each State in 2022</h2>
+            <div id="map_plot"></div>
+            <h2>Donut Chart of Percentage of Births by State in 2022</h2>
+            <div id="donut_birth"></div>
         </div>
-    
-        <!-- Paragraph below the plots -->
-        <div class="paragraph-container">
-            <p>
-                The plots above show the total number of births and deaths in each state of Malaysia.
-                <br>
-                It covers statistics collected in year 2022.
-            </p>
-        </div>
-
-        <div class="container">
-            
-            <div class="plot-container">
-                <h2>Total Births in each State</h2>
-                <div id="heatmap_birth"></div>
-            </div>
-       
-            <div class="plot-container">
-                <h2>Total Deaths in each State</h2>
-                <div id="heatmap_death"></div>
-            </div>
+        
+        <!-- Deaths plot -->
+        <div class="plot-container">
+            <h2>Total Deaths in each State in 2022</h2>
+            <div id="map_plot_death"></div>
+            <h2>Donut Chart of Percentage of Deaths by State in 2022</h2>
+            <div id="donut_death"></div>
         </div>
     </div>
-   
 
-    <!-- End of body content -->
+    <!-- Paragraph below the plots -->
+    <div class="paragraph-container">
+        <p>
+            The plots above show the total number of births and deaths in each state of Malaysia.
+            <br>
+            It covers statistics collected in the year 2022.
+        </p>
+    </div>
+    
+    <div class="container">
+        <div class="plot-container">
+            <h2>Birth Gender Proportion in each State</h2>
+            <div id="stacked_birth"></div>
+        </div>
+        <div class="plot-container">
+            <h2>Death Gender Proportion in each State</h2>
+            <div id="stacked_death"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="plot-container">
+            <h2>Total Births in each State</h2>
+            <div id="heatmap_birth"></div>
+        </div>
+   
+        <div class="plot-container">
+            <h2>Total Deaths in each State</h2>
+            <div id="heatmap_death"></div>
+        </div>
+    </div>
 </body>
 </html>

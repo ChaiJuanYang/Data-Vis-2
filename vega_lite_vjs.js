@@ -28,3 +28,13 @@ var vg6 = "donut_death.json";
 vegaEmbed("#donut_death", vg6).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
+
+var vg7 = "stacked_birth.json";
+vegaEmbed("#stacked_birth", vg7).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
+
+var vg8 = "stacked_death.json"; 
+vegaEmbed("#stacked_death", vg8).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
