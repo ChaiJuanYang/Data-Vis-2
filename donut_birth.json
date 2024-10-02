@@ -1,0 +1,57 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Percentage of Births by State in 2022",
+    "width": 420,
+    "height": 320,
+    "data": {
+      "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/df_2022.csv",  
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "aggregate": [{"op": "sum", "field": "annual_birth", "as": "total_births"}],
+        "groupby": ["state"]
+      },
+      {
+        "joinaggregate": [{"op": "sum", "field": "total_births", "as": "total_sum"}]
+      },
+      {
+       "calculate": "round((datum.total_births / datum.total_sum) * 100 * 100) / 100",
+        "as": "percentage"  
+      }
+    ],
+    "mark": {
+      "type": "arc",
+      "innerRadius": 100,
+      "stroke": "black",  
+      "strokeWidth": 1.5
+    },
+    "encoding": {
+      "theta": {
+        "field": "percentage",
+        "type": "quantitative",
+        "stack": true
+      },
+      "color": {
+        "field": "state",
+        "type": "nominal",
+        "legend": {
+          "title": "State"
+        },
+        "scale": {
+          "range": [
+            "#ff9999", "#ffcc99", "#ffff99", "#ccff99", "#99ff99", "#99ffcc", 
+            "#99ffff", "#99ccff", "#9999ff", "#cc99ff", "#ff99ff", "#ff99cc", 
+            "#ff6695", "#ff9916", "#ffcc16", "#ffff16"
+          ]
+          
+        }
+      },
+      "tooltip": [
+        {"field": "state", "type": "nominal", "title": "State"},
+        {"field": "total_births", "type": "quantitative", "title": "Total Births"},
+        {"field": "percentage", "type": "quantitative", "title": "Percentage of Total Births (%)"}
+      ]
+    }
+  }
+  

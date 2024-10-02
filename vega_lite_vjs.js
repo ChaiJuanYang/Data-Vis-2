@@ -18,3 +18,13 @@ var vg4 = "heatmap_death.json";
 vegaEmbed("#heatmap_death", vg4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
+
+var vg5 = "donut_birth.json";
+vegaEmbed("#donut_birth", vg5).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
+
+var vg6 = "donut_death.json";
+vegaEmbed("#donut_death", vg6).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);

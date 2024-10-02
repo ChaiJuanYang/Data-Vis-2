@@ -1,717 +1,717 @@
 state,date,sex,ethnicity,annual_birth,annual_death
-Johor,2000-01-01,male,overall,34726,7163
-Johor,2001-01-01,male,overall,31857,7380
-Johor,2002-01-01,male,overall,30922,7763
-Johor,2003-01-01,male,overall,30223,7933
-Johor,2004-01-01,male,overall,29518,8021
-Johor,2005-01-01,male,overall,29081,8194
-Johor,2006-01-01,male,overall,29661,8550
-Johor,2007-01-01,male,overall,29815,8985
-Johor,2008-01-01,male,overall,29897,9345
-Johor,2009-01-01,male,overall,30068,9384
-Johor,2010-01-01,male,overall,28989,9521
-Johor,2011-01-01,male,overall,29962,9604
-Johor,2012-01-01,male,overall,31214,9989
-Johor,2013-01-01,male,overall,29672,10361
-Johor,2014-01-01,male,overall,31420,10517
-Johor,2015-01-01,male,overall,31307,11045
-Johor,2016-01-01,male,overall,30754,11674
-Johor,2017-01-01,male,overall,31648,12076
-Johor,2018-01-01,male,overall,31656,12384
-Johor,2019-01-01,male,overall,31073,12760
-Johor,2020-01-01,male,overall,29379,12194
-Johor,2021-01-01,male,overall,25708,15549
-Johor,2022-01-01,male,overall,24765,14618
-Johor,2000-01-01,female,overall,32457,4981
-Johor,2001-01-01,female,overall,29575,5350
-Johor,2002-01-01,female,overall,28777,5696
-Johor,2003-01-01,female,overall,28007,5738
-Johor,2004-01-01,female,overall,27821,5821
-Johor,2005-01-01,female,overall,27443,5958
-Johor,2006-01-01,female,overall,27076,5996
-Johor,2007-01-01,female,overall,27965,6180
-Johor,2008-01-01,female,overall,27941,6581
-Johor,2009-01-01,female,overall,27781,6587
-Johor,2010-01-01,female,overall,27075,6539
-Johor,2011-01-01,female,overall,28205,6875
-Johor,2012-01-01,female,overall,29230,7212
-Johor,2013-01-01,female,overall,27730,7335
-Johor,2014-01-01,female,overall,29023,7387
-Johor,2015-01-01,female,overall,29236,7808
-Johor,2016-01-01,female,overall,28807,8250
-Johor,2017-01-01,female,overall,29437,8586
-Johor,2018-01-01,female,overall,29428,8733
-Johor,2019-01-01,female,overall,29188,9039
-Johor,2020-01-01,female,overall,27529,8452
-Johor,2021-01-01,female,overall,24282,11402
-Johor,2022-01-01,female,overall,23489,10687
-Kedah,2000-01-01,male,overall,21038,5110
-Kedah,2001-01-01,male,overall,19754,5218
-Kedah,2002-01-01,male,overall,18825,5628
-Kedah,2003-01-01,male,overall,18285,5800
-Kedah,2004-01-01,male,overall,17872,5746
-Kedah,2005-01-01,male,overall,17587,5770
-Kedah,2006-01-01,male,overall,17467,6077
-Kedah,2007-01-01,male,overall,17461,6160
-Kedah,2008-01-01,male,overall,18182,6321
-Kedah,2009-01-01,male,overall,18499,6632
-Kedah,2010-01-01,male,overall,18203,6601
-Kedah,2011-01-01,male,overall,18480,6844
-Kedah,2012-01-01,male,overall,18937,7059
-Kedah,2013-01-01,male,overall,18049,7096
-Kedah,2014-01-01,male,overall,18936,7404
-Kedah,2015-01-01,male,overall,18832,7733
-Kedah,2016-01-01,male,overall,18457,7734
-Kedah,2017-01-01,male,overall,18991,8049
-Kedah,2018-01-01,male,overall,18462,8216
-Kedah,2019-01-01,male,overall,17828,8031
-Kedah,2020-01-01,male,overall,17516,7694
-Kedah,2021-01-01,male,overall,17032,10068
-Kedah,2022-01-01,male,overall,15784,9792
-Kedah,2000-01-01,female,overall,19976,3872
-Kedah,2001-01-01,female,overall,18319,3979
-Kedah,2002-01-01,female,overall,17779,4297
-Kedah,2003-01-01,female,overall,17122,4511
-Kedah,2004-01-01,female,overall,17187,4349
-Kedah,2005-01-01,female,overall,16667,4510
-Kedah,2006-01-01,female,overall,16397,4621
-Kedah,2007-01-01,female,overall,16502,4687
-Kedah,2008-01-01,female,overall,17233,4750
-Kedah,2009-01-01,female,overall,17520,4986
-Kedah,2010-01-01,female,overall,16925,5073
-Kedah,2011-01-01,female,overall,17457,5025
-Kedah,2012-01-01,female,overall,17453,5209
-Kedah,2013-01-01,female,overall,16983,5420
-Kedah,2014-01-01,female,overall,17569,5613
-Kedah,2015-01-01,female,overall,17952,5941
-Kedah,2016-01-01,female,overall,17510,6037
-Kedah,2017-01-01,female,overall,17702,6283
-Kedah,2018-01-01,female,overall,17181,6336
-Kedah,2019-01-01,female,overall,16683,6271
-Kedah,2020-01-01,female,overall,16312,5977
-Kedah,2021-01-01,female,overall,16008,8389
-Kedah,2022-01-01,female,overall,15012,7836
-Kelantan,2000-01-01,male,overall,20749,4333
-Kelantan,2001-01-01,male,overall,19696,4367
-Kelantan,2002-01-01,male,overall,19221,4784
-Kelantan,2003-01-01,male,overall,18396,4956
-Kelantan,2004-01-01,male,overall,17946,4920
-Kelantan,2005-01-01,male,overall,17584,5051
-Kelantan,2006-01-01,male,overall,17374,5023
-Kelantan,2007-01-01,male,overall,17393,5211
-Kelantan,2008-01-01,male,overall,18032,5592
-Kelantan,2009-01-01,male,overall,18337,5721
-Kelantan,2010-01-01,male,overall,18586,5590
-Kelantan,2011-01-01,male,overall,19412,5624
-Kelantan,2012-01-01,male,overall,19328,5589
-Kelantan,2013-01-01,male,overall,18853,5635
-Kelantan,2014-01-01,male,overall,20227,5958
-Kelantan,2015-01-01,male,overall,19984,6087
-Kelantan,2016-01-01,male,overall,19821,6111
-Kelantan,2017-01-01,male,overall,20084,6284
-Kelantan,2018-01-01,male,overall,19984,6332
-Kelantan,2019-01-01,male,overall,19124,6446
-Kelantan,2020-01-01,male,overall,18739,6236
-Kelantan,2021-01-01,male,overall,17868,7605
-Kelantan,2022-01-01,male,overall,17464,7411
-Kelantan,2000-01-01,female,overall,19655,3287
-Kelantan,2001-01-01,female,overall,18490,3430
-Kelantan,2002-01-01,female,overall,18076,3546
-Kelantan,2003-01-01,female,overall,17290,3658
-Kelantan,2004-01-01,female,overall,17167,3627
-Kelantan,2005-01-01,female,overall,16504,3783
-Kelantan,2006-01-01,female,overall,16285,3917
-Kelantan,2007-01-01,female,overall,16407,3975
-Kelantan,2008-01-01,female,overall,16810,4102
-Kelantan,2009-01-01,female,overall,17378,4393
-Kelantan,2010-01-01,female,overall,17423,4208
-Kelantan,2011-01-01,female,overall,18267,4400
-Kelantan,2012-01-01,female,overall,17697,4301
-Kelantan,2013-01-01,female,overall,17560,4407
-Kelantan,2014-01-01,female,overall,19052,4630
-Kelantan,2015-01-01,female,overall,19124,4702
-Kelantan,2016-01-01,female,overall,18634,4698
-Kelantan,2017-01-01,female,overall,19038,4919
-Kelantan,2018-01-01,female,overall,18376,4984
-Kelantan,2019-01-01,female,overall,17734,4964
-Kelantan,2020-01-01,female,overall,17536,4692
-Kelantan,2021-01-01,female,overall,16896,6321
-Kelantan,2022-01-01,female,overall,16344,6034
-Melaka,2000-01-01,male,overall,7893,1998
-Melaka,2001-01-01,male,overall,7437,2114
-Melaka,2002-01-01,male,overall,7027,2131
-Melaka,2003-01-01,male,overall,7287,2187
-Melaka,2004-01-01,male,overall,6930,2228
-Melaka,2005-01-01,male,overall,6905,2293
-Melaka,2006-01-01,male,overall,6585,2291
-Melaka,2007-01-01,male,overall,6943,2350
-Melaka,2008-01-01,male,overall,6897,2490
-Melaka,2009-01-01,male,overall,6913,2549
-Melaka,2010-01-01,male,overall,6799,2530
-Melaka,2011-01-01,male,overall,7290,2642
-Melaka,2012-01-01,male,overall,7233,2588
-Melaka,2013-01-01,male,overall,7102,2669
-Melaka,2014-01-01,male,overall,7592,2719
-Melaka,2015-01-01,male,overall,7460,2778
-Melaka,2016-01-01,male,overall,7511,2915
-Melaka,2017-01-01,male,overall,7454,3092
-Melaka,2018-01-01,male,overall,7379,3079
-Melaka,2019-01-01,male,overall,7408,3088
-Melaka,2020-01-01,male,overall,7139,3072
-Melaka,2021-01-01,male,overall,6812,3921
-Melaka,2022-01-01,male,overall,6745,3669
-Melaka,2000-01-01,female,overall,7411,1727
-Melaka,2001-01-01,female,overall,6880,1685
-Melaka,2002-01-01,female,overall,6783,1835
-Melaka,2003-01-01,female,overall,6611,1777
-Melaka,2004-01-01,female,overall,6618,1842
-Melaka,2005-01-01,female,overall,6436,1847
-Melaka,2006-01-01,female,overall,6361,1855
-Melaka,2007-01-01,female,overall,6501,1795
-Melaka,2008-01-01,female,overall,6722,1891
-Melaka,2009-01-01,female,overall,6543,1923
-Melaka,2010-01-01,female,overall,6211,1951
-Melaka,2011-01-01,female,overall,6686,1964
-Melaka,2012-01-01,female,overall,7045,1987
-Melaka,2013-01-01,female,overall,6590,2078
-Melaka,2014-01-01,female,overall,6976,2009
-Melaka,2015-01-01,female,overall,7094,2181
-Melaka,2016-01-01,female,overall,6891,2271
-Melaka,2017-01-01,female,overall,6935,2431
-Melaka,2018-01-01,female,overall,7009,2328
-Melaka,2019-01-01,female,overall,6728,2459
-Melaka,2020-01-01,female,overall,6716,2372
-Melaka,2021-01-01,female,overall,6380,3162
-Melaka,2022-01-01,female,overall,6360,2961
-Negeri Sembilan,2000-01-01,male,overall,9940,2682
-Negeri Sembilan,2001-01-01,male,overall,9073,2738
-Negeri Sembilan,2002-01-01,male,overall,9149,2882
-Negeri Sembilan,2003-01-01,male,overall,8810,2963
-Negeri Sembilan,2004-01-01,male,overall,8878,2940
-Negeri Sembilan,2005-01-01,male,overall,8708,3041
-Negeri Sembilan,2006-01-01,male,overall,8577,3042
-Negeri Sembilan,2007-01-01,male,overall,8890,3050
-Negeri Sembilan,2008-01-01,male,overall,8869,3355
-Negeri Sembilan,2009-01-01,male,overall,8960,3419
-Negeri Sembilan,2010-01-01,male,overall,8654,3437
-Negeri Sembilan,2011-01-01,male,overall,9202,3431
-Negeri Sembilan,2012-01-01,male,overall,9219,3376
-Negeri Sembilan,2013-01-01,male,overall,9126,3629
-Negeri Sembilan,2014-01-01,male,overall,9665,3681
-Negeri Sembilan,2015-01-01,male,overall,9605,3823
-Negeri Sembilan,2016-01-01,male,overall,9345,3964
-Negeri Sembilan,2017-01-01,male,overall,9390,4100
-Negeri Sembilan,2018-01-01,male,overall,9328,4285
-Negeri Sembilan,2019-01-01,male,overall,9061,4106
-Negeri Sembilan,2020-01-01,male,overall,8880,4051
-Negeri Sembilan,2021-01-01,male,overall,8723,5206
-Negeri Sembilan,2022-01-01,male,overall,8406,4959
-Negeri Sembilan,2000-01-01,female,overall,9303,1858
-Negeri Sembilan,2001-01-01,female,overall,8597,1986
-Negeri Sembilan,2002-01-01,female,overall,8498,2169
-Negeri Sembilan,2003-01-01,female,overall,8462,2075
-Negeri Sembilan,2004-01-01,female,overall,8207,2127
-Negeri Sembilan,2005-01-01,female,overall,8130,2122
-Negeri Sembilan,2006-01-01,female,overall,8045,2162
-Negeri Sembilan,2007-01-01,female,overall,8305,2131
-Negeri Sembilan,2008-01-01,female,overall,8482,2385
-Negeri Sembilan,2009-01-01,female,overall,8400,2413
-Negeri Sembilan,2010-01-01,female,overall,8285,2377
-Negeri Sembilan,2011-01-01,female,overall,8468,2454
-Negeri Sembilan,2012-01-01,female,overall,8684,2519
-Negeri Sembilan,2013-01-01,female,overall,8383,2584
-Negeri Sembilan,2014-01-01,female,overall,9011,2729
-Negeri Sembilan,2015-01-01,female,overall,8818,2788
-Negeri Sembilan,2016-01-01,female,overall,8691,2846
-Negeri Sembilan,2017-01-01,female,overall,8688,3011
-Negeri Sembilan,2018-01-01,female,overall,8849,3013
-Negeri Sembilan,2019-01-01,female,overall,8403,3062
-Negeri Sembilan,2020-01-01,female,overall,8240,2960
-Negeri Sembilan,2021-01-01,female,overall,8054,3959
-Negeri Sembilan,2022-01-01,female,overall,7585,3677
-Pahang,2000-01-01,male,overall,15268,3274
-Pahang,2001-01-01,male,overall,14181,3427
-Pahang,2002-01-01,male,overall,13947,3799
-Pahang,2003-01-01,male,overall,13422,3794
-Pahang,2004-01-01,male,overall,13543,3825
-Pahang,2005-01-01,male,overall,13286,3935
-Pahang,2006-01-01,male,overall,12835,4026
-Pahang,2007-01-01,male,overall,12780,4049
-Pahang,2008-01-01,male,overall,13311,4346
-Pahang,2009-01-01,male,overall,13484,4502
-Pahang,2010-01-01,male,overall,13426,4669
-Pahang,2011-01-01,male,overall,14045,4732
-Pahang,2012-01-01,male,overall,13955,4713
-Pahang,2013-01-01,male,overall,13996,4962
-Pahang,2014-01-01,male,overall,14887,5092
-Pahang,2015-01-01,male,overall,14370,5044
-Pahang,2016-01-01,male,overall,14379,5347
-Pahang,2017-01-01,male,overall,14111,5498
-Pahang,2018-01-01,male,overall,13930,5525
-Pahang,2019-01-01,male,overall,13254,5392
-Pahang,2020-01-01,male,overall,13032,5175
-Pahang,2021-01-01,male,overall,12624,6109
-Pahang,2022-01-01,male,overall,12209,6516
-Pahang,2000-01-01,female,overall,14287,2233
-Pahang,2001-01-01,female,overall,13432,2314
-Pahang,2002-01-01,female,overall,12863,2498
-Pahang,2003-01-01,female,overall,12722,2497
-Pahang,2004-01-01,female,overall,12356,2450
-Pahang,2005-01-01,female,overall,12406,2564
-Pahang,2006-01-01,female,overall,11974,2644
-Pahang,2007-01-01,female,overall,12178,2693
-Pahang,2008-01-01,female,overall,12347,2754
-Pahang,2009-01-01,female,overall,12573,2926
-Pahang,2010-01-01,female,overall,12520,3053
-Pahang,2011-01-01,female,overall,13034,3080
-Pahang,2012-01-01,female,overall,13456,3078
-Pahang,2013-01-01,female,overall,12972,3184
-Pahang,2014-01-01,female,overall,13856,3209
-Pahang,2015-01-01,female,overall,13689,3427
-Pahang,2016-01-01,female,overall,13247,3531
-Pahang,2017-01-01,female,overall,13444,3763
-Pahang,2018-01-01,female,overall,13076,3721
-Pahang,2019-01-01,female,overall,12633,3787
-Pahang,2020-01-01,female,overall,12312,3511
-Pahang,2021-01-01,female,overall,11883,4257
-Pahang,2022-01-01,female,overall,11359,4506
-Perak,2000-01-01,male,overall,24896,7643
-Perak,2001-01-01,male,overall,22408,7623
-Perak,2002-01-01,male,overall,21684,8218
-Perak,2003-01-01,male,overall,20565,8263
-Perak,2004-01-01,male,overall,20128,8242
-Perak,2005-01-01,male,overall,19161,8114
-Perak,2006-01-01,male,overall,19060,8116
-Perak,2007-01-01,male,overall,18931,8436
-Perak,2008-01-01,male,overall,19159,8776
-Perak,2009-01-01,male,overall,19096,8959
-Perak,2010-01-01,male,overall,18548,8831
-Perak,2011-01-01,male,overall,19459,9042
-Perak,2012-01-01,male,overall,19402,9315
-Perak,2013-01-01,male,overall,18294,9294
-Perak,2014-01-01,male,overall,18833,9461
-Perak,2015-01-01,male,overall,18855,9759
-Perak,2016-01-01,male,overall,18559,10113
-Perak,2017-01-01,male,overall,17953,10420
-Perak,2018-01-01,male,overall,17455,10582
-Perak,2019-01-01,male,overall,17069,10571
-Perak,2020-01-01,male,overall,16472,10173
-Perak,2021-01-01,male,overall,15758,12022
-Perak,2022-01-01,male,overall,15202,12641
-Perak,2000-01-01,female,overall,23693,5551
-Perak,2001-01-01,female,overall,21125,5954
-Perak,2002-01-01,female,overall,20605,6127
-Perak,2003-01-01,female,overall,19257,6298
-Perak,2004-01-01,female,overall,18884,6159
-Perak,2005-01-01,female,overall,18208,6234
-Perak,2006-01-01,female,overall,17775,6313
-Perak,2007-01-01,female,overall,17697,6477
-Perak,2008-01-01,female,overall,18015,6619
-Perak,2009-01-01,female,overall,18107,6782
-Perak,2010-01-01,female,overall,17478,6609
-Perak,2011-01-01,female,overall,18063,6970
-Perak,2012-01-01,female,overall,18310,7080
-Perak,2013-01-01,female,overall,17133,7092
-Perak,2014-01-01,female,overall,17753,7464
-Perak,2015-01-01,female,overall,17429,7400
-Perak,2016-01-01,female,overall,17126,7707
-Perak,2017-01-01,female,overall,16885,7627
-Perak,2018-01-01,female,overall,16414,8018
-Perak,2019-01-01,female,overall,15936,8169
-Perak,2020-01-01,female,overall,15110,7773
-Perak,2021-01-01,female,overall,15058,9281
-Perak,2022-01-01,female,overall,14341,9700
-Perlis,2000-01-01,male,overall,2433,738
-Perlis,2001-01-01,male,overall,2218,765
-Perlis,2002-01-01,male,overall,2128,735
-Perlis,2003-01-01,male,overall,2046,807
-Perlis,2004-01-01,male,overall,2025,772
-Perlis,2005-01-01,male,overall,2004,826
-Perlis,2006-01-01,male,overall,2002,823
-Perlis,2007-01-01,male,overall,2026,811
-Perlis,2008-01-01,male,overall,2175,938
-Perlis,2009-01-01,male,overall,2211,900
-Perlis,2010-01-01,male,overall,2126,954
-Perlis,2011-01-01,male,overall,2192,905
-Perlis,2012-01-01,male,overall,2130,877
-Perlis,2013-01-01,male,overall,2108,948
-Perlis,2014-01-01,male,overall,2318,912
-Perlis,2015-01-01,male,overall,2239,958
-Perlis,2016-01-01,male,overall,2297,1023
-Perlis,2017-01-01,male,overall,2347,1100
-Perlis,2018-01-01,male,overall,2249,1138
-Perlis,2019-01-01,male,overall,2155,1125
-Perlis,2020-01-01,male,overall,2104,1073
-Perlis,2021-01-01,male,overall,2148,1244
-Perlis,2022-01-01,male,overall,1967,1348
-Perlis,2000-01-01,female,overall,2218,569
-Perlis,2001-01-01,female,overall,2122,570
-Perlis,2002-01-01,female,overall,2097,643
-Perlis,2003-01-01,female,overall,2012,609
-Perlis,2004-01-01,female,overall,1939,654
-Perlis,2005-01-01,female,overall,1928,626
-Perlis,2006-01-01,female,overall,1889,639
-Perlis,2007-01-01,female,overall,1920,680
-Perlis,2008-01-01,female,overall,2000,680
-Perlis,2009-01-01,female,overall,2026,680
-Perlis,2010-01-01,female,overall,1988,729
-Perlis,2011-01-01,female,overall,1969,732
-Perlis,2012-01-01,female,overall,2013,778
-Perlis,2013-01-01,female,overall,1942,793
-Perlis,2014-01-01,female,overall,2191,759
-Perlis,2015-01-01,female,overall,2076,809
-Perlis,2016-01-01,female,overall,2095,861
-Perlis,2017-01-01,female,overall,2100,904
-Perlis,2018-01-01,female,overall,2122,904
-Perlis,2019-01-01,female,overall,1905,871
-Perlis,2020-01-01,female,overall,1997,877
-Perlis,2021-01-01,female,overall,1928,990
-Perlis,2022-01-01,female,overall,1779,1074
-Pulau Pinang,2000-01-01,male,overall,14005,3934
-Pulau Pinang,2001-01-01,male,overall,12582,3955
-Pulau Pinang,2002-01-01,male,overall,12894,4253
-Pulau Pinang,2003-01-01,male,overall,11963,4312
-Pulau Pinang,2004-01-01,male,overall,11838,4362
-Pulau Pinang,2005-01-01,male,overall,11716,4382
-Pulau Pinang,2006-01-01,male,overall,11510,4323
-Pulau Pinang,2007-01-01,male,overall,11594,4694
-Pulau Pinang,2008-01-01,male,overall,11929,4702
-Pulau Pinang,2009-01-01,male,overall,11734,4899
-Pulau Pinang,2010-01-01,male,overall,10964,5004
-Pulau Pinang,2011-01-01,male,overall,11633,5147
-Pulau Pinang,2012-01-01,male,overall,12138,5078
-Pulau Pinang,2013-01-01,male,overall,11020,5379
-Pulau Pinang,2014-01-01,male,overall,11799,5472
-Pulau Pinang,2015-01-01,male,overall,11529,5783
-Pulau Pinang,2016-01-01,male,overall,11176,6163
-Pulau Pinang,2017-01-01,male,overall,11048,5984
-Pulau Pinang,2018-01-01,male,overall,10661,6271
-Pulau Pinang,2019-01-01,male,overall,10471,6109
-Pulau Pinang,2020-01-01,male,overall,10188,6035
-Pulau Pinang,2021-01-01,male,overall,9510,7781
-Pulau Pinang,2022-01-01,male,overall,9069,7338
-Pulau Pinang,2000-01-01,female,overall,13332,3103
-Pulau Pinang,2001-01-01,female,overall,12130,3207
-Pulau Pinang,2002-01-01,female,overall,11881,3450
-Pulau Pinang,2003-01-01,female,overall,11504,3469
-Pulau Pinang,2004-01-01,female,overall,11105,3451
-Pulau Pinang,2005-01-01,female,overall,10843,3487
-Pulau Pinang,2006-01-01,female,overall,10493,3595
-Pulau Pinang,2007-01-01,female,overall,10835,3622
-Pulau Pinang,2008-01-01,female,overall,11023,3769
-Pulau Pinang,2009-01-01,female,overall,11043,3800
-Pulau Pinang,2010-01-01,female,overall,10208,4059
-Pulau Pinang,2011-01-01,female,overall,10720,3960
-Pulau Pinang,2012-01-01,female,overall,11656,4055
-Pulau Pinang,2013-01-01,female,overall,10479,4159
-Pulau Pinang,2014-01-01,female,overall,11078,4206
-Pulau Pinang,2015-01-01,female,overall,10713,4443
-Pulau Pinang,2016-01-01,female,overall,10605,4566
-Pulau Pinang,2017-01-01,female,overall,10416,4743
-Pulau Pinang,2018-01-01,female,overall,10044,4938
-Pulau Pinang,2019-01-01,female,overall,9729,4787
-Pulau Pinang,2020-01-01,female,overall,9457,4666
-Pulau Pinang,2021-01-01,female,overall,9061,6197
-Pulau Pinang,2022-01-01,female,overall,8662,5582
-Sabah,2000-01-01,male,overall,25535,3204
-Sabah,2001-01-01,male,overall,25446,3309
-Sabah,2002-01-01,male,overall,23889,3549
-Sabah,2003-01-01,male,overall,22975,3587
-Sabah,2004-01-01,male,overall,23923,3764
-Sabah,2005-01-01,male,overall,24492,3943
-Sabah,2006-01-01,male,overall,24019,4005
-Sabah,2007-01-01,male,overall,24199,4142
-Sabah,2008-01-01,male,overall,26167,4446
-Sabah,2009-01-01,male,overall,27295,4556
-Sabah,2010-01-01,male,overall,28078,4574
-Sabah,2011-01-01,male,overall,28473,4849
-Sabah,2012-01-01,male,overall,30266,4779
-Sabah,2013-01-01,male,overall,29664,4836
-Sabah,2014-01-01,male,overall,29720,7175
-Sabah,2015-01-01,male,overall,28451,7365
-Sabah,2016-01-01,male,overall,27067,7555
-Sabah,2017-01-01,male,overall,27120,7929
-Sabah,2018-01-01,male,overall,27601,8170
-Sabah,2019-01-01,male,overall,27554,8560
-Sabah,2020-01-01,male,overall,25952,8818
-Sabah,2021-01-01,male,overall,21544,10791
-Sabah,2022-01-01,male,overall,22471,10084
-Sabah,2000-01-01,female,overall,23773,1999
-Sabah,2001-01-01,female,overall,23544,2128
-Sabah,2002-01-01,female,overall,22230,2315
-Sabah,2003-01-01,female,overall,21413,2474
-Sabah,2004-01-01,female,overall,22247,2564
-Sabah,2005-01-01,female,overall,22668,2620
-Sabah,2006-01-01,female,overall,22123,2697
-Sabah,2007-01-01,female,overall,22818,2837
-Sabah,2008-01-01,female,overall,24105,2948
-Sabah,2009-01-01,female,overall,25487,3009
-Sabah,2010-01-01,female,overall,26056,3048
-Sabah,2011-01-01,female,overall,26517,3246
-Sabah,2012-01-01,female,overall,27919,3287
-Sabah,2013-01-01,female,overall,27159,3417
-Sabah,2014-01-01,female,overall,27677,5013
-Sabah,2015-01-01,female,overall,26248,5146
-Sabah,2016-01-01,female,overall,25004,5279
-Sabah,2017-01-01,female,overall,25408,5790
-Sabah,2018-01-01,female,overall,25424,5770
-Sabah,2019-01-01,female,overall,25419,6153
-Sabah,2020-01-01,female,overall,23635,6050
-Sabah,2021-01-01,female,overall,20064,8082
-Sabah,2022-01-01,female,overall,21146,7311
-Sarawak,2000-01-01,male,overall,24799,4894
-Sarawak,2001-01-01,male,overall,23866,5115
-Sarawak,2002-01-01,male,overall,23426,5078
-Sarawak,2003-01-01,male,overall,23005,5331
-Sarawak,2004-01-01,male,overall,22518,5527
-Sarawak,2005-01-01,male,overall,22402,5466
-Sarawak,2006-01-01,male,overall,22215,5579
-Sarawak,2007-01-01,male,overall,22036,5642
-Sarawak,2008-01-01,male,overall,22631,5939
-Sarawak,2009-01-01,male,overall,22693,6351
-Sarawak,2010-01-01,male,overall,21435,5951
-Sarawak,2011-01-01,male,overall,22318,6314
-Sarawak,2012-01-01,male,overall,22517,6419
-Sarawak,2013-01-01,male,overall,21027,6427
-Sarawak,2014-01-01,male,overall,21243,6698
-Sarawak,2015-01-01,male,overall,20551,6902
-Sarawak,2016-01-01,male,overall,19652,7218
-Sarawak,2017-01-01,male,overall,19543,7564
-Sarawak,2018-01-01,male,overall,18876,7862
-Sarawak,2019-01-01,male,overall,19037,7908
-Sarawak,2020-01-01,male,overall,18440,8227
-Sarawak,2021-01-01,male,overall,16062,10209
-Sarawak,2022-01-01,male,overall,15949,9566
-Sarawak,2000-01-01,female,overall,23121,3619
-Sarawak,2001-01-01,female,overall,22232,3778
-Sarawak,2002-01-01,female,overall,21503,3740
-Sarawak,2003-01-01,female,overall,21063,3956
-Sarawak,2004-01-01,female,overall,21027,3979
-Sarawak,2005-01-01,female,overall,20839,4087
-Sarawak,2006-01-01,female,overall,20677,4383
-Sarawak,2007-01-01,female,overall,20513,4378
-Sarawak,2008-01-01,female,overall,20795,4539
-Sarawak,2009-01-01,female,overall,21060,4889
-Sarawak,2010-01-01,female,overall,20039,4445
-Sarawak,2011-01-01,female,overall,21065,4804
-Sarawak,2012-01-01,female,overall,20661,4827
-Sarawak,2013-01-01,female,overall,19386,4804
-Sarawak,2014-01-01,female,overall,19806,4988
-Sarawak,2015-01-01,female,overall,19203,5298
-Sarawak,2016-01-01,female,overall,18333,5390
-Sarawak,2017-01-01,female,overall,18111,5553
-Sarawak,2018-01-01,female,overall,17748,5966
-Sarawak,2019-01-01,female,overall,17635,6117
-Sarawak,2020-01-01,female,overall,17009,5887
-Sarawak,2021-01-01,female,overall,15212,7387
-Sarawak,2022-01-01,female,overall,14988,7061
-Selangor,2000-01-01,male,overall,47370,7460
-Selangor,2001-01-01,male,overall,45402,7825
-Selangor,2002-01-01,male,overall,46508,8108
-Selangor,2003-01-01,male,overall,46551,8432
-Selangor,2004-01-01,male,overall,48364,8566
-Selangor,2005-01-01,male,overall,47743,8864
-Selangor,2006-01-01,male,overall,49070,9229
-Selangor,2007-01-01,male,overall,50109,9301
-Selangor,2008-01-01,male,overall,51868,10270
-Selangor,2009-01-01,male,overall,53174,10637
-Selangor,2010-01-01,male,overall,50529,10793
-Selangor,2011-01-01,male,overall,53540,11265
-Selangor,2012-01-01,male,overall,56078,12186
-Selangor,2013-01-01,male,overall,53282,12611
-Selangor,2014-01-01,male,overall,56023,13072
-Selangor,2015-01-01,male,overall,55720,13689
-Selangor,2016-01-01,male,overall,54027,14948
-Selangor,2017-01-01,male,overall,53823,15417
-Selangor,2018-01-01,male,overall,52784,15829
-Selangor,2019-01-01,male,overall,50760,16193
-Selangor,2020-01-01,male,overall,48318,14856
-Selangor,2021-01-01,male,overall,46638,24531
-Selangor,2022-01-01,male,overall,43346,19023
-Selangor,2000-01-01,female,overall,44265,5246
-Selangor,2001-01-01,female,overall,42356,5543
-Selangor,2002-01-01,female,overall,43227,5814
-Selangor,2003-01-01,female,overall,43382,5863
-Selangor,2004-01-01,female,overall,44812,6050
-Selangor,2005-01-01,female,overall,44713,6507
-Selangor,2006-01-01,female,overall,45667,6466
-Selangor,2007-01-01,female,overall,46946,6602
-Selangor,2008-01-01,female,overall,48416,7379
-Selangor,2009-01-01,female,overall,49849,7736
-Selangor,2010-01-01,female,overall,47900,7765
-Selangor,2011-01-01,female,overall,50146,8087
-Selangor,2012-01-01,female,overall,51868,8834
-Selangor,2013-01-01,female,overall,49891,9066
-Selangor,2014-01-01,female,overall,52909,9575
-Selangor,2015-01-01,female,overall,52411,10115
-Selangor,2016-01-01,female,overall,50634,10640
-Selangor,2017-01-01,female,overall,50164,11316
-Selangor,2018-01-01,female,overall,49341,11558
-Selangor,2019-01-01,female,overall,48076,11593
-Selangor,2020-01-01,female,overall,45259,10549
-Selangor,2021-01-01,female,overall,43480,17520
-Selangor,2022-01-01,female,overall,40312,13838
-Terengganu,2000-01-01,male,overall,12831,2607
-Terengganu,2001-01-01,male,overall,12373,2842
-Terengganu,2002-01-01,male,overall,11961,2807
-Terengganu,2003-01-01,male,overall,11544,3122
-Terengganu,2004-01-01,male,overall,11732,3032
-Terengganu,2005-01-01,male,overall,11188,3004
-Terengganu,2006-01-01,male,overall,11159,3129
-Terengganu,2007-01-01,male,overall,11536,3235
-Terengganu,2008-01-01,male,overall,12114,3283
-Terengganu,2009-01-01,male,overall,12200,3491
-Terengganu,2010-01-01,male,overall,12546,3428
-Terengganu,2011-01-01,male,overall,12855,3518
-Terengganu,2012-01-01,male,overall,13230,3592
-Terengganu,2013-01-01,male,overall,13026,3739
-Terengganu,2014-01-01,male,overall,14056,3598
-Terengganu,2015-01-01,male,overall,14403,3850
-Terengganu,2016-01-01,male,overall,14211,3945
-Terengganu,2017-01-01,male,overall,14177,4030
-Terengganu,2018-01-01,male,overall,14578,4052
-Terengganu,2019-01-01,male,overall,14088,4207
-Terengganu,2020-01-01,male,overall,14118,3881
-Terengganu,2021-01-01,male,overall,13632,4645
-Terengganu,2022-01-01,male,overall,13077,4762
-Terengganu,2000-01-01,female,overall,12002,1963
-Terengganu,2001-01-01,female,overall,11687,2024
-Terengganu,2002-01-01,female,overall,11244,2244
-Terengganu,2003-01-01,female,overall,10725,2224
-Terengganu,2004-01-01,female,overall,10810,2212
-Terengganu,2005-01-01,female,overall,10778,2364
-Terengganu,2006-01-01,female,overall,10748,2278
-Terengganu,2007-01-01,female,overall,10830,2328
-Terengganu,2008-01-01,female,overall,11225,2491
-Terengganu,2009-01-01,female,overall,11687,2487
-Terengganu,2010-01-01,female,overall,11716,2436
-Terengganu,2011-01-01,female,overall,11921,2691
-Terengganu,2012-01-01,female,overall,12468,2585
-Terengganu,2013-01-01,female,overall,12439,2685
-Terengganu,2014-01-01,female,overall,12957,2862
-Terengganu,2015-01-01,female,overall,13226,2865
-Terengganu,2016-01-01,female,overall,13310,2898
-Terengganu,2017-01-01,female,overall,13734,3018
-Terengganu,2018-01-01,female,overall,13664,3047
-Terengganu,2019-01-01,female,overall,12997,3134
-Terengganu,2020-01-01,female,overall,13059,2855
-Terengganu,2021-01-01,female,overall,12705,3824
-Terengganu,2022-01-01,female,overall,12227,3924
-W.P. Kuala Lumpur,2000-01-01,male,overall,15150,3169
-W.P. Kuala Lumpur,2001-01-01,male,overall,13975,3329
-W.P. Kuala Lumpur,2002-01-01,male,overall,13431,3519
-W.P. Kuala Lumpur,2003-01-01,male,overall,13057,3366
-W.P. Kuala Lumpur,2004-01-01,male,overall,12811,3329
-W.P. Kuala Lumpur,2005-01-01,male,overall,12234,3212
-W.P. Kuala Lumpur,2006-01-01,male,overall,12406,3336
-W.P. Kuala Lumpur,2007-01-01,male,overall,12883,3417
-W.P. Kuala Lumpur,2008-01-01,male,overall,12996,3473
-W.P. Kuala Lumpur,2009-01-01,male,overall,13271,3808
-W.P. Kuala Lumpur,2010-01-01,male,overall,12697,3826
-W.P. Kuala Lumpur,2011-01-01,male,overall,13147,4052
-W.P. Kuala Lumpur,2012-01-01,male,overall,14012,4092
-W.P. Kuala Lumpur,2013-01-01,male,overall,13044,4117
-W.P. Kuala Lumpur,2014-01-01,male,overall,13887,4508
-W.P. Kuala Lumpur,2015-01-01,male,overall,13411,4395
-W.P. Kuala Lumpur,2016-01-01,male,overall,13276,4733
-W.P. Kuala Lumpur,2017-01-01,male,overall,12722,4724
-W.P. Kuala Lumpur,2018-01-01,male,overall,12475,4929
-W.P. Kuala Lumpur,2019-01-01,male,overall,12473,5183
-W.P. Kuala Lumpur,2020-01-01,male,overall,12113,4812
-W.P. Kuala Lumpur,2021-01-01,male,overall,10992,7689
-W.P. Kuala Lumpur,2022-01-01,male,overall,10234,5706
-W.P. Kuala Lumpur,2000-01-01,female,overall,14232,2323
-W.P. Kuala Lumpur,2001-01-01,female,overall,13236,2417
-W.P. Kuala Lumpur,2002-01-01,female,overall,12497,2539
-W.P. Kuala Lumpur,2003-01-01,female,overall,12116,2522
-W.P. Kuala Lumpur,2004-01-01,female,overall,12081,2421
-W.P. Kuala Lumpur,2005-01-01,female,overall,11310,2423
-W.P. Kuala Lumpur,2006-01-01,female,overall,11661,2455
-W.P. Kuala Lumpur,2007-01-01,female,overall,12053,2598
-W.P. Kuala Lumpur,2008-01-01,female,overall,12182,2691
-W.P. Kuala Lumpur,2009-01-01,female,overall,12599,2662
-W.P. Kuala Lumpur,2010-01-01,female,overall,11774,2639
-W.P. Kuala Lumpur,2011-01-01,female,overall,12378,2875
-W.P. Kuala Lumpur,2012-01-01,female,overall,12970,2904
-W.P. Kuala Lumpur,2013-01-01,female,overall,12289,3066
-W.P. Kuala Lumpur,2014-01-01,female,overall,13213,3139
-W.P. Kuala Lumpur,2015-01-01,female,overall,12378,3213
-W.P. Kuala Lumpur,2016-01-01,female,overall,12463,3344
-W.P. Kuala Lumpur,2017-01-01,female,overall,12010,3481
-W.P. Kuala Lumpur,2018-01-01,female,overall,11760,3556
-W.P. Kuala Lumpur,2019-01-01,female,overall,11448,3662
-W.P. Kuala Lumpur,2020-01-01,female,overall,11086,3522
-W.P. Kuala Lumpur,2021-01-01,female,overall,10054,5645
-W.P. Kuala Lumpur,2022-01-01,female,overall,9619,4256
-W.P. Labuan,2000-01-01,male,overall,769,94
-W.P. Labuan,2001-01-01,male,overall,783,101
-W.P. Labuan,2002-01-01,male,overall,773,130
-W.P. Labuan,2003-01-01,male,overall,833,134
-W.P. Labuan,2004-01-01,male,overall,791,128
-W.P. Labuan,2005-01-01,male,overall,784,128
-W.P. Labuan,2006-01-01,male,overall,818,121
-W.P. Labuan,2007-01-01,male,overall,829,123
-W.P. Labuan,2008-01-01,male,overall,849,156
-W.P. Labuan,2009-01-01,male,overall,848,153
-W.P. Labuan,2010-01-01,male,overall,852,144
-W.P. Labuan,2011-01-01,male,overall,911,137
-W.P. Labuan,2012-01-01,male,overall,934,144
-W.P. Labuan,2013-01-01,male,overall,944,145
-W.P. Labuan,2014-01-01,male,overall,959,165
-W.P. Labuan,2015-01-01,male,overall,1023,143
-W.P. Labuan,2016-01-01,male,overall,881,169
-W.P. Labuan,2017-01-01,male,overall,866,132
-W.P. Labuan,2018-01-01,male,overall,913,175
-W.P. Labuan,2019-01-01,male,overall,872,182
-W.P. Labuan,2020-01-01,male,overall,851,183
-W.P. Labuan,2021-01-01,male,overall,755,300
-W.P. Labuan,2022-01-01,male,overall,704,218
-W.P. Labuan,2000-01-01,female,overall,726,73
-W.P. Labuan,2001-01-01,female,overall,703,58
-W.P. Labuan,2002-01-01,female,overall,693,70
-W.P. Labuan,2003-01-01,female,overall,751,86
-W.P. Labuan,2004-01-01,female,overall,722,84
-W.P. Labuan,2005-01-01,female,overall,725,81
-W.P. Labuan,2006-01-01,female,overall,769,87
-W.P. Labuan,2007-01-01,female,overall,752,81
-W.P. Labuan,2008-01-01,female,overall,831,87
-W.P. Labuan,2009-01-01,female,overall,808,94
-W.P. Labuan,2010-01-01,female,overall,779,99
-W.P. Labuan,2011-01-01,female,overall,823,81
-W.P. Labuan,2012-01-01,female,overall,839,98
-W.P. Labuan,2013-01-01,female,overall,799,100
-W.P. Labuan,2014-01-01,female,overall,912,109
-W.P. Labuan,2015-01-01,female,overall,930,103
-W.P. Labuan,2016-01-01,female,overall,871,108
-W.P. Labuan,2017-01-01,female,overall,819,115
-W.P. Labuan,2018-01-01,female,overall,778,112
-W.P. Labuan,2019-01-01,female,overall,806,116
-W.P. Labuan,2020-01-01,female,overall,863,136
-W.P. Labuan,2021-01-01,female,overall,767,217
-W.P. Labuan,2022-01-01,female,overall,670,174
-W.P. Putrajaya,2010-01-01,male,overall,1286,52
-W.P. Putrajaya,2011-01-01,male,overall,1508,63
-W.P. Putrajaya,2012-01-01,male,overall,1600,69
-W.P. Putrajaya,2013-01-01,male,overall,1518,93
-W.P. Putrajaya,2014-01-01,male,overall,1574,100
-W.P. Putrajaya,2015-01-01,male,overall,1515,95
-W.P. Putrajaya,2016-01-01,male,overall,1342,86
-W.P. Putrajaya,2017-01-01,male,overall,1298,123
-W.P. Putrajaya,2018-01-01,male,overall,1251,120
-W.P. Putrajaya,2019-01-01,male,overall,1211,114
-W.P. Putrajaya,2020-01-01,male,overall,1073,118
-W.P. Putrajaya,2021-01-01,male,overall,1090,154
-W.P. Putrajaya,2022-01-01,male,overall,953,139
-W.P. Putrajaya,2010-01-01,female,overall,1144,43
-W.P. Putrajaya,2011-01-01,female,overall,1448,50
-W.P. Putrajaya,2012-01-01,female,overall,1550,73
-W.P. Putrajaya,2013-01-01,female,overall,1454,71
-W.P. Putrajaya,2014-01-01,female,overall,1490,94
-W.P. Putrajaya,2015-01-01,female,overall,1354,98
-W.P. Putrajaya,2016-01-01,female,overall,1227,77
-W.P. Putrajaya,2017-01-01,female,overall,1219,106
-W.P. Putrajaya,2018-01-01,female,overall,1149,98
-W.P. Putrajaya,2019-01-01,female,overall,1105,95
-W.P. Putrajaya,2020-01-01,female,overall,1070,93
-W.P. Putrajaya,2021-01-01,female,overall,1016,112
-W.P. Putrajaya,2022-01-01,female,overall,886,114
+Johor,2000-01-01,Male,overall,34726,7163
+Johor,2001-01-01,Male,overall,31857,7380
+Johor,2002-01-01,Male,overall,30922,7763
+Johor,2003-01-01,Male,overall,30223,7933
+Johor,2004-01-01,Male,overall,29518,8021
+Johor,2005-01-01,Male,overall,29081,8194
+Johor,2006-01-01,Male,overall,29661,8550
+Johor,2007-01-01,Male,overall,29815,8985
+Johor,2008-01-01,Male,overall,29897,9345
+Johor,2009-01-01,Male,overall,30068,9384
+Johor,2010-01-01,Male,overall,28989,9521
+Johor,2011-01-01,Male,overall,29962,9604
+Johor,2012-01-01,Male,overall,31214,9989
+Johor,2013-01-01,Male,overall,29672,10361
+Johor,2014-01-01,Male,overall,31420,10517
+Johor,2015-01-01,Male,overall,31307,11045
+Johor,2016-01-01,Male,overall,30754,11674
+Johor,2017-01-01,Male,overall,31648,12076
+Johor,2018-01-01,Male,overall,31656,12384
+Johor,2019-01-01,Male,overall,31073,12760
+Johor,2020-01-01,Male,overall,29379,12194
+Johor,2021-01-01,Male,overall,25708,15549
+Johor,2022-01-01,Male,overall,24765,14618
+Johor,2000-01-01,Female,overall,32457,4981
+Johor,2001-01-01,Female,overall,29575,5350
+Johor,2002-01-01,Female,overall,28777,5696
+Johor,2003-01-01,Female,overall,28007,5738
+Johor,2004-01-01,Female,overall,27821,5821
+Johor,2005-01-01,Female,overall,27443,5958
+Johor,2006-01-01,Female,overall,27076,5996
+Johor,2007-01-01,Female,overall,27965,6180
+Johor,2008-01-01,Female,overall,27941,6581
+Johor,2009-01-01,Female,overall,27781,6587
+Johor,2010-01-01,Female,overall,27075,6539
+Johor,2011-01-01,Female,overall,28205,6875
+Johor,2012-01-01,Female,overall,29230,7212
+Johor,2013-01-01,Female,overall,27730,7335
+Johor,2014-01-01,Female,overall,29023,7387
+Johor,2015-01-01,Female,overall,29236,7808
+Johor,2016-01-01,Female,overall,28807,8250
+Johor,2017-01-01,Female,overall,29437,8586
+Johor,2018-01-01,Female,overall,29428,8733
+Johor,2019-01-01,Female,overall,29188,9039
+Johor,2020-01-01,Female,overall,27529,8452
+Johor,2021-01-01,Female,overall,24282,11402
+Johor,2022-01-01,Female,overall,23489,10687
+Kedah,2000-01-01,Male,overall,21038,5110
+Kedah,2001-01-01,Male,overall,19754,5218
+Kedah,2002-01-01,Male,overall,18825,5628
+Kedah,2003-01-01,Male,overall,18285,5800
+Kedah,2004-01-01,Male,overall,17872,5746
+Kedah,2005-01-01,Male,overall,17587,5770
+Kedah,2006-01-01,Male,overall,17467,6077
+Kedah,2007-01-01,Male,overall,17461,6160
+Kedah,2008-01-01,Male,overall,18182,6321
+Kedah,2009-01-01,Male,overall,18499,6632
+Kedah,2010-01-01,Male,overall,18203,6601
+Kedah,2011-01-01,Male,overall,18480,6844
+Kedah,2012-01-01,Male,overall,18937,7059
+Kedah,2013-01-01,Male,overall,18049,7096
+Kedah,2014-01-01,Male,overall,18936,7404
+Kedah,2015-01-01,Male,overall,18832,7733
+Kedah,2016-01-01,Male,overall,18457,7734
+Kedah,2017-01-01,Male,overall,18991,8049
+Kedah,2018-01-01,Male,overall,18462,8216
+Kedah,2019-01-01,Male,overall,17828,8031
+Kedah,2020-01-01,Male,overall,17516,7694
+Kedah,2021-01-01,Male,overall,17032,10068
+Kedah,2022-01-01,Male,overall,15784,9792
+Kedah,2000-01-01,Female,overall,19976,3872
+Kedah,2001-01-01,Female,overall,18319,3979
+Kedah,2002-01-01,Female,overall,17779,4297
+Kedah,2003-01-01,Female,overall,17122,4511
+Kedah,2004-01-01,Female,overall,17187,4349
+Kedah,2005-01-01,Female,overall,16667,4510
+Kedah,2006-01-01,Female,overall,16397,4621
+Kedah,2007-01-01,Female,overall,16502,4687
+Kedah,2008-01-01,Female,overall,17233,4750
+Kedah,2009-01-01,Female,overall,17520,4986
+Kedah,2010-01-01,Female,overall,16925,5073
+Kedah,2011-01-01,Female,overall,17457,5025
+Kedah,2012-01-01,Female,overall,17453,5209
+Kedah,2013-01-01,Female,overall,16983,5420
+Kedah,2014-01-01,Female,overall,17569,5613
+Kedah,2015-01-01,Female,overall,17952,5941
+Kedah,2016-01-01,Female,overall,17510,6037
+Kedah,2017-01-01,Female,overall,17702,6283
+Kedah,2018-01-01,Female,overall,17181,6336
+Kedah,2019-01-01,Female,overall,16683,6271
+Kedah,2020-01-01,Female,overall,16312,5977
+Kedah,2021-01-01,Female,overall,16008,8389
+Kedah,2022-01-01,Female,overall,15012,7836
+Kelantan,2000-01-01,Male,overall,20749,4333
+Kelantan,2001-01-01,Male,overall,19696,4367
+Kelantan,2002-01-01,Male,overall,19221,4784
+Kelantan,2003-01-01,Male,overall,18396,4956
+Kelantan,2004-01-01,Male,overall,17946,4920
+Kelantan,2005-01-01,Male,overall,17584,5051
+Kelantan,2006-01-01,Male,overall,17374,5023
+Kelantan,2007-01-01,Male,overall,17393,5211
+Kelantan,2008-01-01,Male,overall,18032,5592
+Kelantan,2009-01-01,Male,overall,18337,5721
+Kelantan,2010-01-01,Male,overall,18586,5590
+Kelantan,2011-01-01,Male,overall,19412,5624
+Kelantan,2012-01-01,Male,overall,19328,5589
+Kelantan,2013-01-01,Male,overall,18853,5635
+Kelantan,2014-01-01,Male,overall,20227,5958
+Kelantan,2015-01-01,Male,overall,19984,6087
+Kelantan,2016-01-01,Male,overall,19821,6111
+Kelantan,2017-01-01,Male,overall,20084,6284
+Kelantan,2018-01-01,Male,overall,19984,6332
+Kelantan,2019-01-01,Male,overall,19124,6446
+Kelantan,2020-01-01,Male,overall,18739,6236
+Kelantan,2021-01-01,Male,overall,17868,7605
+Kelantan,2022-01-01,Male,overall,17464,7411
+Kelantan,2000-01-01,Female,overall,19655,3287
+Kelantan,2001-01-01,Female,overall,18490,3430
+Kelantan,2002-01-01,Female,overall,18076,3546
+Kelantan,2003-01-01,Female,overall,17290,3658
+Kelantan,2004-01-01,Female,overall,17167,3627
+Kelantan,2005-01-01,Female,overall,16504,3783
+Kelantan,2006-01-01,Female,overall,16285,3917
+Kelantan,2007-01-01,Female,overall,16407,3975
+Kelantan,2008-01-01,Female,overall,16810,4102
+Kelantan,2009-01-01,Female,overall,17378,4393
+Kelantan,2010-01-01,Female,overall,17423,4208
+Kelantan,2011-01-01,Female,overall,18267,4400
+Kelantan,2012-01-01,Female,overall,17697,4301
+Kelantan,2013-01-01,Female,overall,17560,4407
+Kelantan,2014-01-01,Female,overall,19052,4630
+Kelantan,2015-01-01,Female,overall,19124,4702
+Kelantan,2016-01-01,Female,overall,18634,4698
+Kelantan,2017-01-01,Female,overall,19038,4919
+Kelantan,2018-01-01,Female,overall,18376,4984
+Kelantan,2019-01-01,Female,overall,17734,4964
+Kelantan,2020-01-01,Female,overall,17536,4692
+Kelantan,2021-01-01,Female,overall,16896,6321
+Kelantan,2022-01-01,Female,overall,16344,6034
+Melaka,2000-01-01,Male,overall,7893,1998
+Melaka,2001-01-01,Male,overall,7437,2114
+Melaka,2002-01-01,Male,overall,7027,2131
+Melaka,2003-01-01,Male,overall,7287,2187
+Melaka,2004-01-01,Male,overall,6930,2228
+Melaka,2005-01-01,Male,overall,6905,2293
+Melaka,2006-01-01,Male,overall,6585,2291
+Melaka,2007-01-01,Male,overall,6943,2350
+Melaka,2008-01-01,Male,overall,6897,2490
+Melaka,2009-01-01,Male,overall,6913,2549
+Melaka,2010-01-01,Male,overall,6799,2530
+Melaka,2011-01-01,Male,overall,7290,2642
+Melaka,2012-01-01,Male,overall,7233,2588
+Melaka,2013-01-01,Male,overall,7102,2669
+Melaka,2014-01-01,Male,overall,7592,2719
+Melaka,2015-01-01,Male,overall,7460,2778
+Melaka,2016-01-01,Male,overall,7511,2915
+Melaka,2017-01-01,Male,overall,7454,3092
+Melaka,2018-01-01,Male,overall,7379,3079
+Melaka,2019-01-01,Male,overall,7408,3088
+Melaka,2020-01-01,Male,overall,7139,3072
+Melaka,2021-01-01,Male,overall,6812,3921
+Melaka,2022-01-01,Male,overall,6745,3669
+Melaka,2000-01-01,Female,overall,7411,1727
+Melaka,2001-01-01,Female,overall,6880,1685
+Melaka,2002-01-01,Female,overall,6783,1835
+Melaka,2003-01-01,Female,overall,6611,1777
+Melaka,2004-01-01,Female,overall,6618,1842
+Melaka,2005-01-01,Female,overall,6436,1847
+Melaka,2006-01-01,Female,overall,6361,1855
+Melaka,2007-01-01,Female,overall,6501,1795
+Melaka,2008-01-01,Female,overall,6722,1891
+Melaka,2009-01-01,Female,overall,6543,1923
+Melaka,2010-01-01,Female,overall,6211,1951
+Melaka,2011-01-01,Female,overall,6686,1964
+Melaka,2012-01-01,Female,overall,7045,1987
+Melaka,2013-01-01,Female,overall,6590,2078
+Melaka,2014-01-01,Female,overall,6976,2009
+Melaka,2015-01-01,Female,overall,7094,2181
+Melaka,2016-01-01,Female,overall,6891,2271
+Melaka,2017-01-01,Female,overall,6935,2431
+Melaka,2018-01-01,Female,overall,7009,2328
+Melaka,2019-01-01,Female,overall,6728,2459
+Melaka,2020-01-01,Female,overall,6716,2372
+Melaka,2021-01-01,Female,overall,6380,3162
+Melaka,2022-01-01,Female,overall,6360,2961
+Negeri Sembilan,2000-01-01,Male,overall,9940,2682
+Negeri Sembilan,2001-01-01,Male,overall,9073,2738
+Negeri Sembilan,2002-01-01,Male,overall,9149,2882
+Negeri Sembilan,2003-01-01,Male,overall,8810,2963
+Negeri Sembilan,2004-01-01,Male,overall,8878,2940
+Negeri Sembilan,2005-01-01,Male,overall,8708,3041
+Negeri Sembilan,2006-01-01,Male,overall,8577,3042
+Negeri Sembilan,2007-01-01,Male,overall,8890,3050
+Negeri Sembilan,2008-01-01,Male,overall,8869,3355
+Negeri Sembilan,2009-01-01,Male,overall,8960,3419
+Negeri Sembilan,2010-01-01,Male,overall,8654,3437
+Negeri Sembilan,2011-01-01,Male,overall,9202,3431
+Negeri Sembilan,2012-01-01,Male,overall,9219,3376
+Negeri Sembilan,2013-01-01,Male,overall,9126,3629
+Negeri Sembilan,2014-01-01,Male,overall,9665,3681
+Negeri Sembilan,2015-01-01,Male,overall,9605,3823
+Negeri Sembilan,2016-01-01,Male,overall,9345,3964
+Negeri Sembilan,2017-01-01,Male,overall,9390,4100
+Negeri Sembilan,2018-01-01,Male,overall,9328,4285
+Negeri Sembilan,2019-01-01,Male,overall,9061,4106
+Negeri Sembilan,2020-01-01,Male,overall,8880,4051
+Negeri Sembilan,2021-01-01,Male,overall,8723,5206
+Negeri Sembilan,2022-01-01,Male,overall,8406,4959
+Negeri Sembilan,2000-01-01,Female,overall,9303,1858
+Negeri Sembilan,2001-01-01,Female,overall,8597,1986
+Negeri Sembilan,2002-01-01,Female,overall,8498,2169
+Negeri Sembilan,2003-01-01,Female,overall,8462,2075
+Negeri Sembilan,2004-01-01,Female,overall,8207,2127
+Negeri Sembilan,2005-01-01,Female,overall,8130,2122
+Negeri Sembilan,2006-01-01,Female,overall,8045,2162
+Negeri Sembilan,2007-01-01,Female,overall,8305,2131
+Negeri Sembilan,2008-01-01,Female,overall,8482,2385
+Negeri Sembilan,2009-01-01,Female,overall,8400,2413
+Negeri Sembilan,2010-01-01,Female,overall,8285,2377
+Negeri Sembilan,2011-01-01,Female,overall,8468,2454
+Negeri Sembilan,2012-01-01,Female,overall,8684,2519
+Negeri Sembilan,2013-01-01,Female,overall,8383,2584
+Negeri Sembilan,2014-01-01,Female,overall,9011,2729
+Negeri Sembilan,2015-01-01,Female,overall,8818,2788
+Negeri Sembilan,2016-01-01,Female,overall,8691,2846
+Negeri Sembilan,2017-01-01,Female,overall,8688,3011
+Negeri Sembilan,2018-01-01,Female,overall,8849,3013
+Negeri Sembilan,2019-01-01,Female,overall,8403,3062
+Negeri Sembilan,2020-01-01,Female,overall,8240,2960
+Negeri Sembilan,2021-01-01,Female,overall,8054,3959
+Negeri Sembilan,2022-01-01,Female,overall,7585,3677
+Pahang,2000-01-01,Male,overall,15268,3274
+Pahang,2001-01-01,Male,overall,14181,3427
+Pahang,2002-01-01,Male,overall,13947,3799
+Pahang,2003-01-01,Male,overall,13422,3794
+Pahang,2004-01-01,Male,overall,13543,3825
+Pahang,2005-01-01,Male,overall,13286,3935
+Pahang,2006-01-01,Male,overall,12835,4026
+Pahang,2007-01-01,Male,overall,12780,4049
+Pahang,2008-01-01,Male,overall,13311,4346
+Pahang,2009-01-01,Male,overall,13484,4502
+Pahang,2010-01-01,Male,overall,13426,4669
+Pahang,2011-01-01,Male,overall,14045,4732
+Pahang,2012-01-01,Male,overall,13955,4713
+Pahang,2013-01-01,Male,overall,13996,4962
+Pahang,2014-01-01,Male,overall,14887,5092
+Pahang,2015-01-01,Male,overall,14370,5044
+Pahang,2016-01-01,Male,overall,14379,5347
+Pahang,2017-01-01,Male,overall,14111,5498
+Pahang,2018-01-01,Male,overall,13930,5525
+Pahang,2019-01-01,Male,overall,13254,5392
+Pahang,2020-01-01,Male,overall,13032,5175
+Pahang,2021-01-01,Male,overall,12624,6109
+Pahang,2022-01-01,Male,overall,12209,6516
+Pahang,2000-01-01,Female,overall,14287,2233
+Pahang,2001-01-01,Female,overall,13432,2314
+Pahang,2002-01-01,Female,overall,12863,2498
+Pahang,2003-01-01,Female,overall,12722,2497
+Pahang,2004-01-01,Female,overall,12356,2450
+Pahang,2005-01-01,Female,overall,12406,2564
+Pahang,2006-01-01,Female,overall,11974,2644
+Pahang,2007-01-01,Female,overall,12178,2693
+Pahang,2008-01-01,Female,overall,12347,2754
+Pahang,2009-01-01,Female,overall,12573,2926
+Pahang,2010-01-01,Female,overall,12520,3053
+Pahang,2011-01-01,Female,overall,13034,3080
+Pahang,2012-01-01,Female,overall,13456,3078
+Pahang,2013-01-01,Female,overall,12972,3184
+Pahang,2014-01-01,Female,overall,13856,3209
+Pahang,2015-01-01,Female,overall,13689,3427
+Pahang,2016-01-01,Female,overall,13247,3531
+Pahang,2017-01-01,Female,overall,13444,3763
+Pahang,2018-01-01,Female,overall,13076,3721
+Pahang,2019-01-01,Female,overall,12633,3787
+Pahang,2020-01-01,Female,overall,12312,3511
+Pahang,2021-01-01,Female,overall,11883,4257
+Pahang,2022-01-01,Female,overall,11359,4506
+Perak,2000-01-01,Male,overall,24896,7643
+Perak,2001-01-01,Male,overall,22408,7623
+Perak,2002-01-01,Male,overall,21684,8218
+Perak,2003-01-01,Male,overall,20565,8263
+Perak,2004-01-01,Male,overall,20128,8242
+Perak,2005-01-01,Male,overall,19161,8114
+Perak,2006-01-01,Male,overall,19060,8116
+Perak,2007-01-01,Male,overall,18931,8436
+Perak,2008-01-01,Male,overall,19159,8776
+Perak,2009-01-01,Male,overall,19096,8959
+Perak,2010-01-01,Male,overall,18548,8831
+Perak,2011-01-01,Male,overall,19459,9042
+Perak,2012-01-01,Male,overall,19402,9315
+Perak,2013-01-01,Male,overall,18294,9294
+Perak,2014-01-01,Male,overall,18833,9461
+Perak,2015-01-01,Male,overall,18855,9759
+Perak,2016-01-01,Male,overall,18559,10113
+Perak,2017-01-01,Male,overall,17953,10420
+Perak,2018-01-01,Male,overall,17455,10582
+Perak,2019-01-01,Male,overall,17069,10571
+Perak,2020-01-01,Male,overall,16472,10173
+Perak,2021-01-01,Male,overall,15758,12022
+Perak,2022-01-01,Male,overall,15202,12641
+Perak,2000-01-01,Female,overall,23693,5551
+Perak,2001-01-01,Female,overall,21125,5954
+Perak,2002-01-01,Female,overall,20605,6127
+Perak,2003-01-01,Female,overall,19257,6298
+Perak,2004-01-01,Female,overall,18884,6159
+Perak,2005-01-01,Female,overall,18208,6234
+Perak,2006-01-01,Female,overall,17775,6313
+Perak,2007-01-01,Female,overall,17697,6477
+Perak,2008-01-01,Female,overall,18015,6619
+Perak,2009-01-01,Female,overall,18107,6782
+Perak,2010-01-01,Female,overall,17478,6609
+Perak,2011-01-01,Female,overall,18063,6970
+Perak,2012-01-01,Female,overall,18310,7080
+Perak,2013-01-01,Female,overall,17133,7092
+Perak,2014-01-01,Female,overall,17753,7464
+Perak,2015-01-01,Female,overall,17429,7400
+Perak,2016-01-01,Female,overall,17126,7707
+Perak,2017-01-01,Female,overall,16885,7627
+Perak,2018-01-01,Female,overall,16414,8018
+Perak,2019-01-01,Female,overall,15936,8169
+Perak,2020-01-01,Female,overall,15110,7773
+Perak,2021-01-01,Female,overall,15058,9281
+Perak,2022-01-01,Female,overall,14341,9700
+Perlis,2000-01-01,Male,overall,2433,738
+Perlis,2001-01-01,Male,overall,2218,765
+Perlis,2002-01-01,Male,overall,2128,735
+Perlis,2003-01-01,Male,overall,2046,807
+Perlis,2004-01-01,Male,overall,2025,772
+Perlis,2005-01-01,Male,overall,2004,826
+Perlis,2006-01-01,Male,overall,2002,823
+Perlis,2007-01-01,Male,overall,2026,811
+Perlis,2008-01-01,Male,overall,2175,938
+Perlis,2009-01-01,Male,overall,2211,900
+Perlis,2010-01-01,Male,overall,2126,954
+Perlis,2011-01-01,Male,overall,2192,905
+Perlis,2012-01-01,Male,overall,2130,877
+Perlis,2013-01-01,Male,overall,2108,948
+Perlis,2014-01-01,Male,overall,2318,912
+Perlis,2015-01-01,Male,overall,2239,958
+Perlis,2016-01-01,Male,overall,2297,1023
+Perlis,2017-01-01,Male,overall,2347,1100
+Perlis,2018-01-01,Male,overall,2249,1138
+Perlis,2019-01-01,Male,overall,2155,1125
+Perlis,2020-01-01,Male,overall,2104,1073
+Perlis,2021-01-01,Male,overall,2148,1244
+Perlis,2022-01-01,Male,overall,1967,1348
+Perlis,2000-01-01,Female,overall,2218,569
+Perlis,2001-01-01,Female,overall,2122,570
+Perlis,2002-01-01,Female,overall,2097,643
+Perlis,2003-01-01,Female,overall,2012,609
+Perlis,2004-01-01,Female,overall,1939,654
+Perlis,2005-01-01,Female,overall,1928,626
+Perlis,2006-01-01,Female,overall,1889,639
+Perlis,2007-01-01,Female,overall,1920,680
+Perlis,2008-01-01,Female,overall,2000,680
+Perlis,2009-01-01,Female,overall,2026,680
+Perlis,2010-01-01,Female,overall,1988,729
+Perlis,2011-01-01,Female,overall,1969,732
+Perlis,2012-01-01,Female,overall,2013,778
+Perlis,2013-01-01,Female,overall,1942,793
+Perlis,2014-01-01,Female,overall,2191,759
+Perlis,2015-01-01,Female,overall,2076,809
+Perlis,2016-01-01,Female,overall,2095,861
+Perlis,2017-01-01,Female,overall,2100,904
+Perlis,2018-01-01,Female,overall,2122,904
+Perlis,2019-01-01,Female,overall,1905,871
+Perlis,2020-01-01,Female,overall,1997,877
+Perlis,2021-01-01,Female,overall,1928,990
+Perlis,2022-01-01,Female,overall,1779,1074
+Pulau Pinang,2000-01-01,Male,overall,14005,3934
+Pulau Pinang,2001-01-01,Male,overall,12582,3955
+Pulau Pinang,2002-01-01,Male,overall,12894,4253
+Pulau Pinang,2003-01-01,Male,overall,11963,4312
+Pulau Pinang,2004-01-01,Male,overall,11838,4362
+Pulau Pinang,2005-01-01,Male,overall,11716,4382
+Pulau Pinang,2006-01-01,Male,overall,11510,4323
+Pulau Pinang,2007-01-01,Male,overall,11594,4694
+Pulau Pinang,2008-01-01,Male,overall,11929,4702
+Pulau Pinang,2009-01-01,Male,overall,11734,4899
+Pulau Pinang,2010-01-01,Male,overall,10964,5004
+Pulau Pinang,2011-01-01,Male,overall,11633,5147
+Pulau Pinang,2012-01-01,Male,overall,12138,5078
+Pulau Pinang,2013-01-01,Male,overall,11020,5379
+Pulau Pinang,2014-01-01,Male,overall,11799,5472
+Pulau Pinang,2015-01-01,Male,overall,11529,5783
+Pulau Pinang,2016-01-01,Male,overall,11176,6163
+Pulau Pinang,2017-01-01,Male,overall,11048,5984
+Pulau Pinang,2018-01-01,Male,overall,10661,6271
+Pulau Pinang,2019-01-01,Male,overall,10471,6109
+Pulau Pinang,2020-01-01,Male,overall,10188,6035
+Pulau Pinang,2021-01-01,Male,overall,9510,7781
+Pulau Pinang,2022-01-01,Male,overall,9069,7338
+Pulau Pinang,2000-01-01,Female,overall,13332,3103
+Pulau Pinang,2001-01-01,Female,overall,12130,3207
+Pulau Pinang,2002-01-01,Female,overall,11881,3450
+Pulau Pinang,2003-01-01,Female,overall,11504,3469
+Pulau Pinang,2004-01-01,Female,overall,11105,3451
+Pulau Pinang,2005-01-01,Female,overall,10843,3487
+Pulau Pinang,2006-01-01,Female,overall,10493,3595
+Pulau Pinang,2007-01-01,Female,overall,10835,3622
+Pulau Pinang,2008-01-01,Female,overall,11023,3769
+Pulau Pinang,2009-01-01,Female,overall,11043,3800
+Pulau Pinang,2010-01-01,Female,overall,10208,4059
+Pulau Pinang,2011-01-01,Female,overall,10720,3960
+Pulau Pinang,2012-01-01,Female,overall,11656,4055
+Pulau Pinang,2013-01-01,Female,overall,10479,4159
+Pulau Pinang,2014-01-01,Female,overall,11078,4206
+Pulau Pinang,2015-01-01,Female,overall,10713,4443
+Pulau Pinang,2016-01-01,Female,overall,10605,4566
+Pulau Pinang,2017-01-01,Female,overall,10416,4743
+Pulau Pinang,2018-01-01,Female,overall,10044,4938
+Pulau Pinang,2019-01-01,Female,overall,9729,4787
+Pulau Pinang,2020-01-01,Female,overall,9457,4666
+Pulau Pinang,2021-01-01,Female,overall,9061,6197
+Pulau Pinang,2022-01-01,Female,overall,8662,5582
+Sabah,2000-01-01,Male,overall,25535,3204
+Sabah,2001-01-01,Male,overall,25446,3309
+Sabah,2002-01-01,Male,overall,23889,3549
+Sabah,2003-01-01,Male,overall,22975,3587
+Sabah,2004-01-01,Male,overall,23923,3764
+Sabah,2005-01-01,Male,overall,24492,3943
+Sabah,2006-01-01,Male,overall,24019,4005
+Sabah,2007-01-01,Male,overall,24199,4142
+Sabah,2008-01-01,Male,overall,26167,4446
+Sabah,2009-01-01,Male,overall,27295,4556
+Sabah,2010-01-01,Male,overall,28078,4574
+Sabah,2011-01-01,Male,overall,28473,4849
+Sabah,2012-01-01,Male,overall,30266,4779
+Sabah,2013-01-01,Male,overall,29664,4836
+Sabah,2014-01-01,Male,overall,29720,7175
+Sabah,2015-01-01,Male,overall,28451,7365
+Sabah,2016-01-01,Male,overall,27067,7555
+Sabah,2017-01-01,Male,overall,27120,7929
+Sabah,2018-01-01,Male,overall,27601,8170
+Sabah,2019-01-01,Male,overall,27554,8560
+Sabah,2020-01-01,Male,overall,25952,8818
+Sabah,2021-01-01,Male,overall,21544,10791
+Sabah,2022-01-01,Male,overall,22471,10084
+Sabah,2000-01-01,Female,overall,23773,1999
+Sabah,2001-01-01,Female,overall,23544,2128
+Sabah,2002-01-01,Female,overall,22230,2315
+Sabah,2003-01-01,Female,overall,21413,2474
+Sabah,2004-01-01,Female,overall,22247,2564
+Sabah,2005-01-01,Female,overall,22668,2620
+Sabah,2006-01-01,Female,overall,22123,2697
+Sabah,2007-01-01,Female,overall,22818,2837
+Sabah,2008-01-01,Female,overall,24105,2948
+Sabah,2009-01-01,Female,overall,25487,3009
+Sabah,2010-01-01,Female,overall,26056,3048
+Sabah,2011-01-01,Female,overall,26517,3246
+Sabah,2012-01-01,Female,overall,27919,3287
+Sabah,2013-01-01,Female,overall,27159,3417
+Sabah,2014-01-01,Female,overall,27677,5013
+Sabah,2015-01-01,Female,overall,26248,5146
+Sabah,2016-01-01,Female,overall,25004,5279
+Sabah,2017-01-01,Female,overall,25408,5790
+Sabah,2018-01-01,Female,overall,25424,5770
+Sabah,2019-01-01,Female,overall,25419,6153
+Sabah,2020-01-01,Female,overall,23635,6050
+Sabah,2021-01-01,Female,overall,20064,8082
+Sabah,2022-01-01,Female,overall,21146,7311
+Sarawak,2000-01-01,Male,overall,24799,4894
+Sarawak,2001-01-01,Male,overall,23866,5115
+Sarawak,2002-01-01,Male,overall,23426,5078
+Sarawak,2003-01-01,Male,overall,23005,5331
+Sarawak,2004-01-01,Male,overall,22518,5527
+Sarawak,2005-01-01,Male,overall,22402,5466
+Sarawak,2006-01-01,Male,overall,22215,5579
+Sarawak,2007-01-01,Male,overall,22036,5642
+Sarawak,2008-01-01,Male,overall,22631,5939
+Sarawak,2009-01-01,Male,overall,22693,6351
+Sarawak,2010-01-01,Male,overall,21435,5951
+Sarawak,2011-01-01,Male,overall,22318,6314
+Sarawak,2012-01-01,Male,overall,22517,6419
+Sarawak,2013-01-01,Male,overall,21027,6427
+Sarawak,2014-01-01,Male,overall,21243,6698
+Sarawak,2015-01-01,Male,overall,20551,6902
+Sarawak,2016-01-01,Male,overall,19652,7218
+Sarawak,2017-01-01,Male,overall,19543,7564
+Sarawak,2018-01-01,Male,overall,18876,7862
+Sarawak,2019-01-01,Male,overall,19037,7908
+Sarawak,2020-01-01,Male,overall,18440,8227
+Sarawak,2021-01-01,Male,overall,16062,10209
+Sarawak,2022-01-01,Male,overall,15949,9566
+Sarawak,2000-01-01,Female,overall,23121,3619
+Sarawak,2001-01-01,Female,overall,22232,3778
+Sarawak,2002-01-01,Female,overall,21503,3740
+Sarawak,2003-01-01,Female,overall,21063,3956
+Sarawak,2004-01-01,Female,overall,21027,3979
+Sarawak,2005-01-01,Female,overall,20839,4087
+Sarawak,2006-01-01,Female,overall,20677,4383
+Sarawak,2007-01-01,Female,overall,20513,4378
+Sarawak,2008-01-01,Female,overall,20795,4539
+Sarawak,2009-01-01,Female,overall,21060,4889
+Sarawak,2010-01-01,Female,overall,20039,4445
+Sarawak,2011-01-01,Female,overall,21065,4804
+Sarawak,2012-01-01,Female,overall,20661,4827
+Sarawak,2013-01-01,Female,overall,19386,4804
+Sarawak,2014-01-01,Female,overall,19806,4988
+Sarawak,2015-01-01,Female,overall,19203,5298
+Sarawak,2016-01-01,Female,overall,18333,5390
+Sarawak,2017-01-01,Female,overall,18111,5553
+Sarawak,2018-01-01,Female,overall,17748,5966
+Sarawak,2019-01-01,Female,overall,17635,6117
+Sarawak,2020-01-01,Female,overall,17009,5887
+Sarawak,2021-01-01,Female,overall,15212,7387
+Sarawak,2022-01-01,Female,overall,14988,7061
+Selangor,2000-01-01,Male,overall,47370,7460
+Selangor,2001-01-01,Male,overall,45402,7825
+Selangor,2002-01-01,Male,overall,46508,8108
+Selangor,2003-01-01,Male,overall,46551,8432
+Selangor,2004-01-01,Male,overall,48364,8566
+Selangor,2005-01-01,Male,overall,47743,8864
+Selangor,2006-01-01,Male,overall,49070,9229
+Selangor,2007-01-01,Male,overall,50109,9301
+Selangor,2008-01-01,Male,overall,51868,10270
+Selangor,2009-01-01,Male,overall,53174,10637
+Selangor,2010-01-01,Male,overall,50529,10793
+Selangor,2011-01-01,Male,overall,53540,11265
+Selangor,2012-01-01,Male,overall,56078,12186
+Selangor,2013-01-01,Male,overall,53282,12611
+Selangor,2014-01-01,Male,overall,56023,13072
+Selangor,2015-01-01,Male,overall,55720,13689
+Selangor,2016-01-01,Male,overall,54027,14948
+Selangor,2017-01-01,Male,overall,53823,15417
+Selangor,2018-01-01,Male,overall,52784,15829
+Selangor,2019-01-01,Male,overall,50760,16193
+Selangor,2020-01-01,Male,overall,48318,14856
+Selangor,2021-01-01,Male,overall,46638,24531
+Selangor,2022-01-01,Male,overall,43346,19023
+Selangor,2000-01-01,Female,overall,44265,5246
+Selangor,2001-01-01,Female,overall,42356,5543
+Selangor,2002-01-01,Female,overall,43227,5814
+Selangor,2003-01-01,Female,overall,43382,5863
+Selangor,2004-01-01,Female,overall,44812,6050
+Selangor,2005-01-01,Female,overall,44713,6507
+Selangor,2006-01-01,Female,overall,45667,6466
+Selangor,2007-01-01,Female,overall,46946,6602
+Selangor,2008-01-01,Female,overall,48416,7379
+Selangor,2009-01-01,Female,overall,49849,7736
+Selangor,2010-01-01,Female,overall,47900,7765
+Selangor,2011-01-01,Female,overall,50146,8087
+Selangor,2012-01-01,Female,overall,51868,8834
+Selangor,2013-01-01,Female,overall,49891,9066
+Selangor,2014-01-01,Female,overall,52909,9575
+Selangor,2015-01-01,Female,overall,52411,10115
+Selangor,2016-01-01,Female,overall,50634,10640
+Selangor,2017-01-01,Female,overall,50164,11316
+Selangor,2018-01-01,Female,overall,49341,11558
+Selangor,2019-01-01,Female,overall,48076,11593
+Selangor,2020-01-01,Female,overall,45259,10549
+Selangor,2021-01-01,Female,overall,43480,17520
+Selangor,2022-01-01,Female,overall,40312,13838
+Terengganu,2000-01-01,Male,overall,12831,2607
+Terengganu,2001-01-01,Male,overall,12373,2842
+Terengganu,2002-01-01,Male,overall,11961,2807
+Terengganu,2003-01-01,Male,overall,11544,3122
+Terengganu,2004-01-01,Male,overall,11732,3032
+Terengganu,2005-01-01,Male,overall,11188,3004
+Terengganu,2006-01-01,Male,overall,11159,3129
+Terengganu,2007-01-01,Male,overall,11536,3235
+Terengganu,2008-01-01,Male,overall,12114,3283
+Terengganu,2009-01-01,Male,overall,12200,3491
+Terengganu,2010-01-01,Male,overall,12546,3428
+Terengganu,2011-01-01,Male,overall,12855,3518
+Terengganu,2012-01-01,Male,overall,13230,3592
+Terengganu,2013-01-01,Male,overall,13026,3739
+Terengganu,2014-01-01,Male,overall,14056,3598
+Terengganu,2015-01-01,Male,overall,14403,3850
+Terengganu,2016-01-01,Male,overall,14211,3945
+Terengganu,2017-01-01,Male,overall,14177,4030
+Terengganu,2018-01-01,Male,overall,14578,4052
+Terengganu,2019-01-01,Male,overall,14088,4207
+Terengganu,2020-01-01,Male,overall,14118,3881
+Terengganu,2021-01-01,Male,overall,13632,4645
+Terengganu,2022-01-01,Male,overall,13077,4762
+Terengganu,2000-01-01,Female,overall,12002,1963
+Terengganu,2001-01-01,Female,overall,11687,2024
+Terengganu,2002-01-01,Female,overall,11244,2244
+Terengganu,2003-01-01,Female,overall,10725,2224
+Terengganu,2004-01-01,Female,overall,10810,2212
+Terengganu,2005-01-01,Female,overall,10778,2364
+Terengganu,2006-01-01,Female,overall,10748,2278
+Terengganu,2007-01-01,Female,overall,10830,2328
+Terengganu,2008-01-01,Female,overall,11225,2491
+Terengganu,2009-01-01,Female,overall,11687,2487
+Terengganu,2010-01-01,Female,overall,11716,2436
+Terengganu,2011-01-01,Female,overall,11921,2691
+Terengganu,2012-01-01,Female,overall,12468,2585
+Terengganu,2013-01-01,Female,overall,12439,2685
+Terengganu,2014-01-01,Female,overall,12957,2862
+Terengganu,2015-01-01,Female,overall,13226,2865
+Terengganu,2016-01-01,Female,overall,13310,2898
+Terengganu,2017-01-01,Female,overall,13734,3018
+Terengganu,2018-01-01,Female,overall,13664,3047
+Terengganu,2019-01-01,Female,overall,12997,3134
+Terengganu,2020-01-01,Female,overall,13059,2855
+Terengganu,2021-01-01,Female,overall,12705,3824
+Terengganu,2022-01-01,Female,overall,12227,3924
+W.P. Kuala Lumpur,2000-01-01,Male,overall,15150,3169
+W.P. Kuala Lumpur,2001-01-01,Male,overall,13975,3329
+W.P. Kuala Lumpur,2002-01-01,Male,overall,13431,3519
+W.P. Kuala Lumpur,2003-01-01,Male,overall,13057,3366
+W.P. Kuala Lumpur,2004-01-01,Male,overall,12811,3329
+W.P. Kuala Lumpur,2005-01-01,Male,overall,12234,3212
+W.P. Kuala Lumpur,2006-01-01,Male,overall,12406,3336
+W.P. Kuala Lumpur,2007-01-01,Male,overall,12883,3417
+W.P. Kuala Lumpur,2008-01-01,Male,overall,12996,3473
+W.P. Kuala Lumpur,2009-01-01,Male,overall,13271,3808
+W.P. Kuala Lumpur,2010-01-01,Male,overall,12697,3826
+W.P. Kuala Lumpur,2011-01-01,Male,overall,13147,4052
+W.P. Kuala Lumpur,2012-01-01,Male,overall,14012,4092
+W.P. Kuala Lumpur,2013-01-01,Male,overall,13044,4117
+W.P. Kuala Lumpur,2014-01-01,Male,overall,13887,4508
+W.P. Kuala Lumpur,2015-01-01,Male,overall,13411,4395
+W.P. Kuala Lumpur,2016-01-01,Male,overall,13276,4733
+W.P. Kuala Lumpur,2017-01-01,Male,overall,12722,4724
+W.P. Kuala Lumpur,2018-01-01,Male,overall,12475,4929
+W.P. Kuala Lumpur,2019-01-01,Male,overall,12473,5183
+W.P. Kuala Lumpur,2020-01-01,Male,overall,12113,4812
+W.P. Kuala Lumpur,2021-01-01,Male,overall,10992,7689
+W.P. Kuala Lumpur,2022-01-01,Male,overall,10234,5706
+W.P. Kuala Lumpur,2000-01-01,Female,overall,14232,2323
+W.P. Kuala Lumpur,2001-01-01,Female,overall,13236,2417
+W.P. Kuala Lumpur,2002-01-01,Female,overall,12497,2539
+W.P. Kuala Lumpur,2003-01-01,Female,overall,12116,2522
+W.P. Kuala Lumpur,2004-01-01,Female,overall,12081,2421
+W.P. Kuala Lumpur,2005-01-01,Female,overall,11310,2423
+W.P. Kuala Lumpur,2006-01-01,Female,overall,11661,2455
+W.P. Kuala Lumpur,2007-01-01,Female,overall,12053,2598
+W.P. Kuala Lumpur,2008-01-01,Female,overall,12182,2691
+W.P. Kuala Lumpur,2009-01-01,Female,overall,12599,2662
+W.P. Kuala Lumpur,2010-01-01,Female,overall,11774,2639
+W.P. Kuala Lumpur,2011-01-01,Female,overall,12378,2875
+W.P. Kuala Lumpur,2012-01-01,Female,overall,12970,2904
+W.P. Kuala Lumpur,2013-01-01,Female,overall,12289,3066
+W.P. Kuala Lumpur,2014-01-01,Female,overall,13213,3139
+W.P. Kuala Lumpur,2015-01-01,Female,overall,12378,3213
+W.P. Kuala Lumpur,2016-01-01,Female,overall,12463,3344
+W.P. Kuala Lumpur,2017-01-01,Female,overall,12010,3481
+W.P. Kuala Lumpur,2018-01-01,Female,overall,11760,3556
+W.P. Kuala Lumpur,2019-01-01,Female,overall,11448,3662
+W.P. Kuala Lumpur,2020-01-01,Female,overall,11086,3522
+W.P. Kuala Lumpur,2021-01-01,Female,overall,10054,5645
+W.P. Kuala Lumpur,2022-01-01,Female,overall,9619,4256
+W.P. Labuan,2000-01-01,Male,overall,769,94
+W.P. Labuan,2001-01-01,Male,overall,783,101
+W.P. Labuan,2002-01-01,Male,overall,773,130
+W.P. Labuan,2003-01-01,Male,overall,833,134
+W.P. Labuan,2004-01-01,Male,overall,791,128
+W.P. Labuan,2005-01-01,Male,overall,784,128
+W.P. Labuan,2006-01-01,Male,overall,818,121
+W.P. Labuan,2007-01-01,Male,overall,829,123
+W.P. Labuan,2008-01-01,Male,overall,849,156
+W.P. Labuan,2009-01-01,Male,overall,848,153
+W.P. Labuan,2010-01-01,Male,overall,852,144
+W.P. Labuan,2011-01-01,Male,overall,911,137
+W.P. Labuan,2012-01-01,Male,overall,934,144
+W.P. Labuan,2013-01-01,Male,overall,944,145
+W.P. Labuan,2014-01-01,Male,overall,959,165
+W.P. Labuan,2015-01-01,Male,overall,1023,143
+W.P. Labuan,2016-01-01,Male,overall,881,169
+W.P. Labuan,2017-01-01,Male,overall,866,132
+W.P. Labuan,2018-01-01,Male,overall,913,175
+W.P. Labuan,2019-01-01,Male,overall,872,182
+W.P. Labuan,2020-01-01,Male,overall,851,183
+W.P. Labuan,2021-01-01,Male,overall,755,300
+W.P. Labuan,2022-01-01,Male,overall,704,218
+W.P. Labuan,2000-01-01,Female,overall,726,73
+W.P. Labuan,2001-01-01,Female,overall,703,58
+W.P. Labuan,2002-01-01,Female,overall,693,70
+W.P. Labuan,2003-01-01,Female,overall,751,86
+W.P. Labuan,2004-01-01,Female,overall,722,84
+W.P. Labuan,2005-01-01,Female,overall,725,81
+W.P. Labuan,2006-01-01,Female,overall,769,87
+W.P. Labuan,2007-01-01,Female,overall,752,81
+W.P. Labuan,2008-01-01,Female,overall,831,87
+W.P. Labuan,2009-01-01,Female,overall,808,94
+W.P. Labuan,2010-01-01,Female,overall,779,99
+W.P. Labuan,2011-01-01,Female,overall,823,81
+W.P. Labuan,2012-01-01,Female,overall,839,98
+W.P. Labuan,2013-01-01,Female,overall,799,100
+W.P. Labuan,2014-01-01,Female,overall,912,109
+W.P. Labuan,2015-01-01,Female,overall,930,103
+W.P. Labuan,2016-01-01,Female,overall,871,108
+W.P. Labuan,2017-01-01,Female,overall,819,115
+W.P. Labuan,2018-01-01,Female,overall,778,112
+W.P. Labuan,2019-01-01,Female,overall,806,116
+W.P. Labuan,2020-01-01,Female,overall,863,136
+W.P. Labuan,2021-01-01,Female,overall,767,217
+W.P. Labuan,2022-01-01,Female,overall,670,174
+W.P. Putrajaya,2010-01-01,Male,overall,1286,52
+W.P. Putrajaya,2011-01-01,Male,overall,1508,63
+W.P. Putrajaya,2012-01-01,Male,overall,1600,69
+W.P. Putrajaya,2013-01-01,Male,overall,1518,93
+W.P. Putrajaya,2014-01-01,Male,overall,1574,100
+W.P. Putrajaya,2015-01-01,Male,overall,1515,95
+W.P. Putrajaya,2016-01-01,Male,overall,1342,86
+W.P. Putrajaya,2017-01-01,Male,overall,1298,123
+W.P. Putrajaya,2018-01-01,Male,overall,1251,120
+W.P. Putrajaya,2019-01-01,Male,overall,1211,114
+W.P. Putrajaya,2020-01-01,Male,overall,1073,118
+W.P. Putrajaya,2021-01-01,Male,overall,1090,154
+W.P. Putrajaya,2022-01-01,Male,overall,953,139
+W.P. Putrajaya,2010-01-01,Female,overall,1144,43
+W.P. Putrajaya,2011-01-01,Female,overall,1448,50
+W.P. Putrajaya,2012-01-01,Female,overall,1550,73
+W.P. Putrajaya,2013-01-01,Female,overall,1454,71
+W.P. Putrajaya,2014-01-01,Female,overall,1490,94
+W.P. Putrajaya,2015-01-01,Female,overall,1354,98
+W.P. Putrajaya,2016-01-01,Female,overall,1227,77
+W.P. Putrajaya,2017-01-01,Female,overall,1219,106
+W.P. Putrajaya,2018-01-01,Female,overall,1149,98
+W.P. Putrajaya,2019-01-01,Female,overall,1105,95
+W.P. Putrajaya,2020-01-01,Female,overall,1070,93
+W.P. Putrajaya,2021-01-01,Female,overall,1016,112
+W.P. Putrajaya,2022-01-01,Female,overall,886,114

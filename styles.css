@@ -12,8 +12,15 @@
     border: 1px solid #ccc;
     border-radius: 15px;
     margin: 4px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
-
+#donut_birth, #donut_death {
+    justify-content: center;  /* Center the donut chart horizontally */
+    align-items: center;  /* Center the donut chart vertically */
+    /* width: 100%;  Ensure it uses full container width */
+    /* height: 400px;  Set height to keep the size consistent */
+}
 /* Add some margin for titles */
 h1 {
     text-align: center;
