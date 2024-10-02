@@ -8,6 +8,7 @@
 /* Individual plot container */
 .plot-container {
     width: 50%; /* Adjust width to allow side-by-side */
+    height : 50%;
     border: 1px solid #ccc;
     border-radius: 15px;
     margin: 4px;

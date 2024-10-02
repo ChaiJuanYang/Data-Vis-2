@@ -13,3 +13,8 @@ var vg3 = "heatmap_birth.json";
 vegaEmbed("#heatmap_birth", vg3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
+
+var vg4 = "heatmap_death.json";
+vegaEmbed("#heatmap_death", vg4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);

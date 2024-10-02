@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Annual Births per State (2012-2022)",
+    "title": "Annual Deaths per State (2012-2022)",
     "width": 340,
     "height": 340,
     "data": {
@@ -33,15 +33,15 @@
         "title": "State"
       },
       "color": {
-        "field": "annual_birth",
+        "field": "annual_death",
         "type": "quantitative",
-        "title": "Number of Births",
+        "title": "Number of Deaths",
         "scale": {
-          "domain": [0, 20000, 40000, 60000, 80000, 100000, 120000],
-          "range": ["#e0f3db", "#a8ddb5", "#43a2ca", "#0868ac", "#1d4e96", "#08306b"]  
+          "domain": [0, 10000, 20000, 30000, 40000, 50000], 
+          "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15", "#670010"]  
         },
         "legend": {
-          "title": "Number of Births",
+          "title": "Number of Deaths",
           "labelFontSize": 12,
           "titleFontSize": 14,
           "orient": "right"  
@@ -50,7 +50,7 @@
       "tooltip": [
         {"field": "state", "type": "nominal", "title": "State"},
         {"field": "year", "type": "ordinal", "title": "Year"},
-        {"field": "annual_birth", "type": "quantitative", "title": "Births"}
+        {"field": "annual_death", "type": "quantitative", "title": "Deaths"}
       ]
     }
   }
