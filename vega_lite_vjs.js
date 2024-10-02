@@ -38,3 +38,8 @@ var vg8 = "stacked_death.json";
 vegaEmbed("#stacked_death", vg8).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
+
+var vg9 = "line_bd.json";
+vegaEmbed("#line_bd", vg9).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);

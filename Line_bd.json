@@ -1,0 +1,73 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Births and Deaths in Each State (2012-2022)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_overall.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "calculate": "year(datum.date)",
+        "as": "year"
+      },
+      {
+        "filter": "datum.year >= 2012 && datum.year <= 2022"
+      },
+      {
+        "fold": ["annual_birth", "annual_death"],
+        "as": ["category", "value"]
+      },
+      {
+        "calculate": "datum.category === 'annual_birth' ? 'Annual Birth' : 'Annual Death'",
+        "as": "category_label"
+      }
+    ],
+    "facet": {
+      "field": "state",  
+      "type": "nominal",
+      "header": {
+        "labelFontSize": 14,  
+        "labelFontWeight": "bold"  
+      }
+    },
+    "spec": {
+      "width": 243,
+      "height": 200,
+      "mark": {
+        "type": "line",
+        "point": true
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Count"
+        },
+        "color": {
+          "field": "category_label", 
+          "type": "nominal",
+          "scale": {
+            "domain": ["Annual Birth", "Annual Death"],
+            "range": ["#006400", "#ff7f0e"]
+          },
+          "title": "Category"
+        },
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "value", "type": "quantitative", "title": "Count"},
+          {"field": "category_label", "type": "nominal", "title": "Category"}
+        ]
+      }
+    },
+    "config": {
+      "facet": {
+        "columns": 4
+      }
+    }
+  }
+  
