@@ -1,13 +1,17 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Annual Deaths per State (2012-2022)",
-    "width": 340,
-    "height": 340,
+    "title": "Annual Deaths per 1,000 People per State (2012-2022)",
+    "width": 300,
+    "height": 300,
     "data": {
-      "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_overall.csv",  
+      "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/merged_both_overall_population.csv",  
       "format": {"type": "csv"}
     },
     "transform": [
+      {
+        "calculate": "ceil(datum.annual_death / datum.population * 1000)", 
+        "as": "deaths_per_1000"
+      },
       {
         "calculate": "year(datum.date)", 
         "as": "year"
@@ -19,7 +23,7 @@
     "mark": {
       "type": "rect",
       "stroke": "black",         
-      "strokeWidth": 0.09         
+      "strokeWidth": 0.2       
     },
     "encoding": {
       "x": {
@@ -33,15 +37,15 @@
         "title": "State"
       },
       "color": {
-        "field": "annual_death",
+        "field": "deaths_per_1000",
         "type": "quantitative",
-        "title": "Number of Deaths",
+        "title": "Deaths per 1,000 People",
         "scale": {
-          "domain": [0, 10000, 20000, 30000, 40000, 50000], 
-          "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15", "#670010"]  
+          "domain": [0, 2, 4, 6, 8, 10],  
+          "range":["#fee8c0", "#fdbb94", "#fc8d59", "#ef6548", "#d7301f", "#990000"] 
         },
         "legend": {
-          "title": "Number of Deaths",
+          "title": "Deaths per 1,000 People",
           "labelFontSize": 12,
           "titleFontSize": 14,
           "orient": "right"  
@@ -50,7 +54,9 @@
       "tooltip": [
         {"field": "state", "type": "nominal", "title": "State"},
         {"field": "year", "type": "ordinal", "title": "Year"},
-        {"field": "annual_death", "type": "quantitative", "title": "Deaths"}
+        {"field": "annual_death", "type": "quantitative", "title": "Total Deaths"},
+        {"field": "population", "type": "quantitative", "title": "Population"},
+        {"field": "deaths_per_1000", "type": "quantitative", "title": "Estimated Deaths per 1,000"}
       ]
     }
   }

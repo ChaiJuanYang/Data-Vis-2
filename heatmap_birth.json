@@ -1,57 +1,62 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Annual Births per State (2012-2022)",
-    "width": 340,
-    "height": 340,
-    "data": {
-      "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_overall.csv",  
-      "format": {"type": "csv"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Annual Births per 1,000 People per State (2012-2022)",
+  "width": 300,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/merged_both_overall_population.csv",  
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "calculate": "ceil(datum.annual_birth / datum.population * 1000)", 
+      "as": "births_per_1000"
     },
-    "transform": [
-      {
-        "calculate": "year(datum.date)", 
-        "as": "year"
-      },
-      {
-        "filter": "datum.year >= 2012 && datum.year <= 2022"  
-      }
-    ],
-    "mark": {
-      "type": "rect",
-      "stroke": "black",         
-      "strokeWidth": 0.09         
+    {
+      "calculate": "year(datum.date)", 
+      "as": "year"
     },
-    "encoding": {
-      "x": {
-        "field": "year",
-        "type": "ordinal",
-        "title": "Year"
-      },
-      "y": {
-        "field": "state",
-        "type": "nominal",
-        "title": "State"
-      },
-      "color": {
-        "field": "annual_birth",
-        "type": "quantitative",
-        "title": "Number of Births",
-        "scale": {
-          "domain": [0, 20000, 40000, 60000, 80000, 100000, 120000],
-          "range": ["#e0f3db", "#a8ddb5", "#43a2ca", "#0868ac", "#1d4e96", "#08306b"]  
-        },
-        "legend": {
-          "title": "Number of Births",
-          "labelFontSize": 12,
-          "titleFontSize": 14,
-          "orient": "right"  
-        }
-      },
-      "tooltip": [
-        {"field": "state", "type": "nominal", "title": "State"},
-        {"field": "year", "type": "ordinal", "title": "Year"},
-        {"field": "annual_birth", "type": "quantitative", "title": "Births"}
-      ]
+    {
+      "filter": "datum.year >= 2012 && datum.year <= 2022"  
     }
+  ],
+  "mark": {
+    "type": "rect",
+    "stroke": "black",         
+    "strokeWidth": 0.2        
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "title": "State"
+    },
+    "color": {
+      "field": "births_per_1000",
+      "type": "quantitative",
+      "title": "Births per 1,000 People",
+      "scale": {
+        "domain": [0, 10,20,30],  
+        "range": ["#e0f3db", "#a8ddb5", "#0868ac", "#08307b"] 
+      },
+      "legend": {
+        "title": "Births per 1,000 People",
+        "labelFontSize": 12,
+        "titleFontSize": 14,
+        "orient": "right"  
+      }
+    },
+    "tooltip": [
+      {"field": "state", "type": "nominal", "title": "State"},
+      {"field": "year", "type": "ordinal", "title": "Year"},
+      {"field": "annual_birth", "type": "quantitative", "title": "Total Births"},
+      {"field": "population", "type": "quantitative", "title": "Population"},
+      {"field": "births_per_1000", "type": "quantitative", "title": "Estimated Births per 1,000"}
+    ]
   }
-  
+}

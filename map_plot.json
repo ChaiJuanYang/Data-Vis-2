@@ -34,7 +34,7 @@
     "color": {
       "field": "births_per_1000",
       "type": "quantitative",
-      "scale": {"scheme": "greens"},
+      "scale": {"scheme": "teals"},
       "legend": {
         "title": "Births per 1,000 Population",  
         "labelFontSize": 12,                   
