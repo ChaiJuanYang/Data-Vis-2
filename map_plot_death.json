@@ -4,44 +4,58 @@
   "height": 300,
   "title": "Deaths per 1,000 Population by State in 2022",
   "data": {
-    "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/ne_10m_admin_1_states_provinces.json",  
-    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+    "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/ne_10m_admin_1_states_provinces.json",
+    "format": {
+      "type": "topojson",
+      "feature": "ne_10m_admin_1_states_provinces"
+    }
   },
   "params": [
     {
       "name": "deathSlider",
       "value": 0,
       "bind": {
-        "input": "range",  
-        "min": 0,          
-        "max": 30,    
-        "step": 1,     
-        "name": "Number of Deaths per 1000 Population: "
+        "input": "range",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "name": "Number of Deaths per 1,000 Population: "
+      }
+    },
+    {
+      "name": "StateSelector",
+      "bind": {
+        "input": "select",
+        "options": [null, "Johor", "Kedah", "Kelantan", "Kuala Lumpur", "Melaka", "Negeri Sembilan", "Pahang", "Pulau Pinang", "Perak", "Perlis", "Sabah", "Sarawak", "Selangor", "Terengganu", "Labuan"],
+        "name": "Select State: "
       }
     }
   ],
   "transform": [
     {
-      "lookup": "properties.name", 
+      "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/df_2022.csv",  
+          "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/df_2022.csv",
           "format": {"type": "csv"}
         },
-        "key": "state",  
+        "key": "state",
         "fields": ["annual_death", "population"]
       }
     },
     {
-      "calculate": "datum.annual_death / datum.population * 1000", 
+      "calculate": "datum.annual_death / datum.population * 1000",
       "as": "deaths_per_1000"
     },
     {
-      "calculate": "ceil(datum.deaths_per_1000)", 
+      "calculate": "ceil(datum.deaths_per_1000)",
       "as": "deaths_per_1000_ceiling"
     },
     {
-      "filter": "datum.deaths_per_1000_ceiling > deathSlider"  
+      "filter": "datum.deaths_per_1000_ceiling > deathSlider"
+    },
+    {
+      "filter": "StateSelector == null || datum.properties.name == StateSelector"
     }
   ],
   "layer": [
@@ -51,17 +65,17 @@
         "color": {
           "field": "deaths_per_1000",
           "type": "quantitative",
-          "scale": {"scheme": "oranges"},  
+          "scale": {"scheme": "oranges"},
           "legend": {
-            "title": "Deaths per 1,000 Population",  
-            "labelFontSize": 12,                   
-            "titleFontSize": 10,                   
-            "titleFontWeight": "bold"              
+            "title": "Deaths per 1,000 Population",
+            "labelFontSize": 12,
+            "titleFontSize": 10,
+            "titleFontWeight": "bold"
           }
         },
         "tooltip": [
-          {"field": "properties.name", "type": "nominal", "title": "State"}, 
-          {"field": "deaths_per_1000", "type": "quantitative", "title": "Deaths per 1,000 Population"},
+          {"field": "properties.name", "type": "nominal", "title": "State"},
+          {"field": "deaths_per_1000", "type": "quantitative", "title": "Deaths per 1,000 Population","format":".2f"},
           {"field": "deaths_per_1000_ceiling", "type": "quantitative", "title": "Estimated Deaths per 1,000 Population"},
           {"field": "annual_death", "type": "quantitative", "title": "Total Deaths"},
           {"field": "population", "type": "quantitative", "title": "Population"}
@@ -80,8 +94,8 @@
         "text": {
           "value": "Perak has the highest death rate.\nSelangor and Sabah have the lowest death rates."
         },
-        "x": {"value": 450},  
-        "y": {"value": 290},  
+        "x": {"value": 450},
+        "y": {"value": 290},
         "color": {"value": "black"}
       }
     }

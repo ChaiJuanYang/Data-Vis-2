@@ -23,7 +23,7 @@
       "name": "StateSelector",
       "bind": {
         "input": "select",
-        "options": [null, "Johor", "Kedah", "Kelantan", "Kuala Lumpur", "Melaka", "Negeri Sembilan", "Pahang", "Penang", "Perak", "Perlis", "Sabah", "Sarawak", "Selangor", "Terengganu"],
+        "options": [null, "Johor", "Kedah", "Kelantan", "Kuala Lumpur", "Melaka", "Negeri Sembilan", "Pahang", "Pulau Pinang", "Perak", "Perlis", "Sabah", "Sarawak", "Selangor", "Terengganu","Labuan"],
         "name": "Select State: "
       }
     }
@@ -72,7 +72,7 @@
         },
         "tooltip": [
           {"field": "properties.name", "type": "nominal", "title": "State"},
-          {"field": "births_per_1000", "type": "quantitative", "title": "Births per 1,000 Population"},
+          {"field": "births_per_1000", "type": "quantitative", "title": "Births per 1,000 Population", "format":".2f"},
           {"field": "births_per_1000_ceiling", "type": "quantitative", "title": "Estimated Births per 1,000 Population"},
           {"field": "annual_birth", "type": "quantitative", "title": "Total Births"},
           {"field": "population", "type": "quantitative", "title": "Population"}
