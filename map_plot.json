@@ -4,7 +4,7 @@
   "height": 300,
   "title": "Births per 1,000 Population by State in 2022",
   "data": {
-    "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/ne_10m_admin_1_states_provinces.json",  
+    "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/9e341582c7323c73947620868d9c689d265f3f61/ne_10m_admin_1_states_provinces%20copy.json",
     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
   },
   "params": [
@@ -12,36 +12,47 @@
       "name": "birthSlider",
       "value": 0,
       "bind": {
-        "input": "range",  
-        "min": 0,          
-        "max": 30,    
-        "step": 1,     
-        "name": "Number of Births per 1000 Population: "
+        "input": "range",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "name": "Number of Births per 1,000 Population: "
+      }
+    },
+    {
+      "name": "StateSelector",
+      "bind": {
+        "input": "select",
+        "options": [null, "Johor", "Kedah", "Kelantan", "Kuala Lumpur", "Melaka", "Negeri Sembilan", "Pahang", "Penang", "Perak", "Perlis", "Sabah", "Sarawak", "Selangor", "Terengganu"],
+        "name": "Select State: "
       }
     }
   ],
   "transform": [
     {
-      "lookup": "properties.name", 
+      "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/df_2022.csv",  
+          "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/df_2022.csv",
           "format": {"type": "csv"}
         },
-        "key": "state",  
+        "key": "state",
         "fields": ["annual_birth", "population"]
       }
     },
     {
-      "calculate": "datum.annual_birth / datum.population * 1000", 
+      "calculate": "datum.annual_birth / datum.population * 1000",
       "as": "births_per_1000"
     },
     {
-      "calculate": "ceil(datum.births_per_1000)", 
+      "calculate": "ceil(datum.births_per_1000)",
       "as": "births_per_1000_ceiling"
     },
     {
-      "filter": "datum.births_per_1000_ceiling > birthSlider"  
+      "filter": "datum.births_per_1000_ceiling > birthSlider"
+    },
+    {
+      "filter": "StateSelector == null || datum.properties.name == StateSelector"
     }
   ],
   "layer": [
@@ -53,14 +64,14 @@
           "type": "quantitative",
           "scale": {"scheme": "teals"},
           "legend": {
-            "title": "Births per 1,000 Population",  
-            "labelFontSize": 12,                   
-            "titleFontSize": 10,                   
-            "titleFontWeight": "bold"              
+            "title": "Births per 1,000 Population",
+            "labelFontSize": 12,
+            "titleFontSize": 10,
+            "titleFontWeight": "bold"
           }
         },
         "tooltip": [
-          {"field": "properties.name", "type": "nominal", "title": "State"}, 
+          {"field": "properties.name", "type": "nominal", "title": "State"},
           {"field": "births_per_1000", "type": "quantitative", "title": "Births per 1,000 Population"},
           {"field": "births_per_1000_ceiling", "type": "quantitative", "title": "Estimated Births per 1,000 Population"},
           {"field": "annual_birth", "type": "quantitative", "title": "Total Births"},
@@ -80,8 +91,8 @@
         "text": {
           "value": "Terengganu has the highest birth rate.\n Kuala Lumpur and Penang have the lowest birth rates."
         },
-        "x": {"value":  510},  
-        "y": {"value": 290},  
+        "x": {"value": 510},
+        "y": {"value": 290},
         "color": {"value": "black"}
       }
     }
