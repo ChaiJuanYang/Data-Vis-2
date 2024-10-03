@@ -58,6 +58,7 @@
           "title": "Category"
         },
         "tooltip": [
+          {"field": "state", "type": "nominal", "title": "State"},
           {"field": "year", "type": "ordinal", "title": "Year"},
           {"field": "value", "type": "quantitative", "title": "Count"},
           {"field": "category_label", "type": "nominal", "title": "Category"}
