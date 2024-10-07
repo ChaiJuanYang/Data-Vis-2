@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 420,
+  "width": 400,
   "height": 300,
   "title": "Deaths per 1,000 Population by State in 2022",
   "data": {

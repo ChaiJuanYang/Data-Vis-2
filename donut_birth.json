@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Percentage of Births by State in 2022",
-    "width": 420,
+    "width": 400,
     "height": 320,
     "data": {
       "url": "https://raw.githubusercontent.com/ChaiJuanYang/FIT3179_W9/refs/heads/main/df_2022.csv",  
