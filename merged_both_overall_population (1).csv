@@ -1,0 +1,359 @@
+state,date,sex,ethnicity,annual_birth,annual_death,age,population
+Johor,2000-01-01,both,overall,67183,12144,overall,2762500
+Johor,2001-01-01,both,overall,61432,12730,overall,2829900
+Johor,2002-01-01,both,overall,59699,13459,overall,2893600
+Johor,2003-01-01,both,overall,58230,13671,overall,2954000
+Johor,2004-01-01,both,overall,57339,13842,overall,3014600
+Johor,2005-01-01,both,overall,56524,14152,overall,3074400
+Johor,2006-01-01,both,overall,56737,14546,overall,3134400
+Johor,2007-01-01,both,overall,57780,15165,overall,3193500
+Johor,2008-01-01,both,overall,57838,15926,overall,3252300
+Johor,2009-01-01,both,overall,57849,15971,overall,3309400
+Johor,2010-01-01,both,overall,56064,16060,overall,3362900
+Johor,2011-01-01,both,overall,58167,16479,overall,3410500
+Johor,2012-01-01,both,overall,60444,17201,overall,3450400
+Johor,2013-01-01,both,overall,57402,17696,overall,3474400
+Johor,2014-01-01,both,overall,60443,17904,overall,3559800
+Johor,2015-01-01,both,overall,60543,18853,overall,3610300
+Johor,2016-01-01,both,overall,59561,19924,overall,3651800
+Johor,2017-01-01,both,overall,61085,20662,overall,3697000
+Johor,2018-01-01,both,overall,61084,21117,overall,3749400
+Johor,2019-01-01,both,overall,60261,21799,overall,3761200
+Johor,2020-01-01,both,overall,56908,20646,overall,4009700
+Johor,2021-01-01,both,overall,49990,26951,overall,4020000
+Johor,2022-01-01,both,overall,48254,25305,overall,4028300
+Kedah,2000-01-01,both,overall,41014,8982,overall,1671900
+Kedah,2001-01-01,both,overall,38073,9197,overall,1703900
+Kedah,2002-01-01,both,overall,36604,9925,overall,1734800
+Kedah,2003-01-01,both,overall,35407,10311,overall,1763700
+Kedah,2004-01-01,both,overall,35059,10095,overall,1792400
+Kedah,2005-01-01,both,overall,34254,10280,overall,1820300
+Kedah,2006-01-01,both,overall,33864,10698,overall,1847500
+Kedah,2007-01-01,both,overall,33963,10847,overall,1874200
+Kedah,2008-01-01,both,overall,35415,11071,overall,1900200
+Kedah,2009-01-01,both,overall,36019,11618,overall,1925300
+Kedah,2010-01-01,both,overall,35128,11674,overall,1949300
+Kedah,2011-01-01,both,overall,35937,11869,overall,1971800
+Kedah,2012-01-01,both,overall,36390,12268,overall,2001100
+Kedah,2013-01-01,both,overall,35032,12516,overall,2039800
+Kedah,2014-01-01,both,overall,36505,13017,overall,2062700
+Kedah,2015-01-01,both,overall,36784,13674,overall,2096500
+Kedah,2016-01-01,both,overall,35967,13771,overall,2119700
+Kedah,2017-01-01,both,overall,36693,14332,overall,2143900
+Kedah,2018-01-01,both,overall,35643,14552,overall,2163000
+Kedah,2019-01-01,both,overall,34511,14302,overall,2173700
+Kedah,2020-01-01,both,overall,33828,13671,overall,2131400
+Kedah,2021-01-01,both,overall,33040,18457,overall,2151700
+Kedah,2022-01-01,both,overall,30796,17628,overall,2163100
+Kelantan,2000-01-01,both,overall,40404,7620,overall,1361400
+Kelantan,2001-01-01,both,overall,38186,7797,overall,1390000
+Kelantan,2002-01-01,both,overall,37297,8330,overall,1416700
+Kelantan,2003-01-01,both,overall,35686,8614,overall,1440500
+Kelantan,2004-01-01,both,overall,35113,8547,overall,1463800
+Kelantan,2005-01-01,both,overall,34088,8834,overall,1486300
+Kelantan,2006-01-01,both,overall,33659,8940,overall,1507600
+Kelantan,2007-01-01,both,overall,33800,9186,overall,1529100
+Kelantan,2008-01-01,both,overall,34842,9694,overall,1549800
+Kelantan,2009-01-01,both,overall,35715,10114,overall,1570000
+Kelantan,2010-01-01,both,overall,36009,9798,overall,1589900
+Kelantan,2011-01-01,both,overall,37679,10024,overall,1618800
+Kelantan,2012-01-01,both,overall,37025,9890,overall,1651000
+Kelantan,2013-01-01,both,overall,36413,10042,overall,1683500
+Kelantan,2014-01-01,both,overall,39279,10588,overall,1723400
+Kelantan,2015-01-01,both,overall,39108,10789,overall,1760600
+Kelantan,2016-01-01,both,overall,38455,10809,overall,1796700
+Kelantan,2017-01-01,both,overall,39122,11203,overall,1829000
+Kelantan,2018-01-01,both,overall,38360,11316,overall,1860500
+Kelantan,2019-01-01,both,overall,36858,11410,overall,1883800
+Kelantan,2020-01-01,both,overall,36275,10928,overall,1792500
+Kelantan,2021-01-01,both,overall,34764,13926,overall,1812300
+Kelantan,2022-01-01,both,overall,33808,13445,overall,1830600
+Melaka,2000-01-01,both,overall,15304,3725,overall,646600
+Melaka,2001-01-01,both,overall,14317,3799,overall,665800
+Melaka,2002-01-01,both,overall,13810,3966,overall,684100
+Melaka,2003-01-01,both,overall,13898,3964,overall,701800
+Melaka,2004-01-01,both,overall,13548,4070,overall,719800
+Melaka,2005-01-01,both,overall,13341,4140,overall,737300
+Melaka,2006-01-01,both,overall,12946,4146,overall,755000
+Melaka,2007-01-01,both,overall,13444,4145,overall,772800
+Melaka,2008-01-01,both,overall,13619,4381,overall,790500
+Melaka,2009-01-01,both,overall,13456,4472,overall,807800
+Melaka,2010-01-01,both,overall,13010,4481,overall,823600
+Melaka,2011-01-01,both,overall,13976,4606,overall,833200
+Melaka,2012-01-01,both,overall,14278,4575,overall,843200
+Melaka,2013-01-01,both,overall,13692,4747,overall,856700
+Melaka,2014-01-01,both,overall,14568,4728,overall,871700
+Melaka,2015-01-01,both,overall,14554,4959,overall,889000
+Melaka,2016-01-01,both,overall,14402,5186,overall,901100
+Melaka,2017-01-01,both,overall,14389,5523,overall,913100
+Melaka,2018-01-01,both,overall,14388,5407,overall,922400
+Melaka,2019-01-01,both,overall,14136,5547,overall,928400
+Melaka,2020-01-01,both,overall,13855,5444,overall,998400
+Melaka,2021-01-01,both,overall,13192,7083,overall,1004500
+Melaka,2022-01-01,both,overall,13105,6630,overall,1008600
+Negeri Sembilan,2000-01-01,both,overall,19243,4540,overall,866100
+Negeri Sembilan,2001-01-01,both,overall,17670,4724,overall,883700
+Negeri Sembilan,2002-01-01,both,overall,17647,5051,overall,900300
+Negeri Sembilan,2003-01-01,both,overall,17272,5038,overall,916800
+Negeri Sembilan,2004-01-01,both,overall,17085,5067,overall,933700
+Negeri Sembilan,2005-01-01,both,overall,16838,5163,overall,950300
+Negeri Sembilan,2006-01-01,both,overall,16622,5204,overall,967000
+Negeri Sembilan,2007-01-01,both,overall,17195,5181,overall,983500
+Negeri Sembilan,2008-01-01,both,overall,17351,5740,overall,999600
+Negeri Sembilan,2009-01-01,both,overall,17360,5832,overall,1014900
+Negeri Sembilan,2010-01-01,both,overall,16939,5814,overall,1029500
+Negeri Sembilan,2011-01-01,both,overall,17670,5885,overall,1047400
+Negeri Sembilan,2012-01-01,both,overall,17903,5895,overall,1057700
+Negeri Sembilan,2013-01-01,both,overall,17509,6213,overall,1072200
+Negeri Sembilan,2014-01-01,both,overall,18676,6410,overall,1079600
+Negeri Sembilan,2015-01-01,both,overall,18423,6611,overall,1088800
+Negeri Sembilan,2016-01-01,both,overall,18036,6810,overall,1099300
+Negeri Sembilan,2017-01-01,both,overall,18078,7111,overall,1114000
+Negeri Sembilan,2018-01-01,both,overall,18177,7298,overall,1122900
+Negeri Sembilan,2019-01-01,both,overall,17464,7168,overall,1126200
+Negeri Sembilan,2020-01-01,both,overall,17120,7011,overall,1200000
+Negeri Sembilan,2021-01-01,both,overall,16777,9165,overall,1204200
+Negeri Sembilan,2022-01-01,both,overall,15991,8636,overall,1207900
+Pahang,2000-01-01,both,overall,29555,5507,overall,1295800
+Pahang,2001-01-01,both,overall,27613,5741,overall,1317300
+Pahang,2002-01-01,both,overall,26810,6297,overall,1338700
+Pahang,2003-01-01,both,overall,26144,6291,overall,1360000
+Pahang,2004-01-01,both,overall,25899,6275,overall,1380200
+Pahang,2005-01-01,both,overall,25692,6499,overall,1400800
+Pahang,2006-01-01,both,overall,24809,6670,overall,1421200
+Pahang,2007-01-01,both,overall,24958,6742,overall,1441400
+Pahang,2008-01-01,both,overall,25658,7100,overall,1461600
+Pahang,2009-01-01,both,overall,26057,7428,overall,1481700
+Pahang,2010-01-01,both,overall,25946,7722,overall,1501900
+Pahang,2011-01-01,both,overall,27079,7812,overall,1526800
+Pahang,2012-01-01,both,overall,27411,7791,overall,1547100
+Pahang,2013-01-01,both,overall,26968,8146,overall,1568700
+Pahang,2014-01-01,both,overall,28743,8301,overall,1591700
+Pahang,2015-01-01,both,overall,28059,8471,overall,1607900
+Pahang,2016-01-01,both,overall,27626,8878,overall,1626700
+Pahang,2017-01-01,both,overall,27555,9261,overall,1647000
+Pahang,2018-01-01,both,overall,27006,9246,overall,1664700
+Pahang,2019-01-01,both,overall,25887,9179,overall,1671400
+Pahang,2020-01-01,both,overall,25344,8686,overall,1591300
+Pahang,2021-01-01,both,overall,24507,10366,overall,1601500
+Pahang,2022-01-01,both,overall,23568,11022,overall,1614300
+Perak,2000-01-01,both,overall,48589,13194,overall,2091700
+Perak,2001-01-01,both,overall,43533,13577,overall,2129000
+Perak,2002-01-01,both,overall,42289,14345,overall,2161800
+Perak,2003-01-01,both,overall,39822,14561,overall,2192100
+Perak,2004-01-01,both,overall,39012,14401,overall,2222100
+Perak,2005-01-01,both,overall,37369,14348,overall,2251100
+Perak,2006-01-01,both,overall,36835,14429,overall,2279300
+Perak,2007-01-01,both,overall,36628,14913,overall,2306400
+Perak,2008-01-01,both,overall,37174,15395,overall,2331600
+Perak,2009-01-01,both,overall,37203,15741,overall,2355700
+Perak,2010-01-01,both,overall,36026,15440,overall,2379000
+Perak,2011-01-01,both,overall,37522,16012,overall,2402700
+Perak,2012-01-01,both,overall,37712,16395,overall,2427000
+Perak,2013-01-01,both,overall,35427,16386,overall,2447200
+Perak,2014-01-01,both,overall,36586,16925,overall,2458800
+Perak,2015-01-01,both,overall,36284,17159,overall,2466900
+Perak,2016-01-01,both,overall,35685,17820,overall,2482100
+Perak,2017-01-01,both,overall,34838,18047,overall,2493200
+Perak,2018-01-01,both,overall,33869,18600,overall,2503500
+Perak,2019-01-01,both,overall,33005,18740,overall,2508800
+Perak,2020-01-01,both,overall,31582,17946,overall,2496000
+Perak,2021-01-01,both,overall,30816,21303,overall,2515800
+Perak,2022-01-01,both,overall,29543,22341,overall,2514400
+Perlis,2000-01-01,both,overall,4651,1307,overall,207600
+Perlis,2001-01-01,both,overall,4340,1335,overall,210400
+Perlis,2002-01-01,both,overall,4225,1378,overall,213200
+Perlis,2003-01-01,both,overall,4058,1416,overall,216000
+Perlis,2004-01-01,both,overall,3964,1426,overall,218800
+Perlis,2005-01-01,both,overall,3932,1452,overall,221600
+Perlis,2006-01-01,both,overall,3891,1462,overall,224400
+Perlis,2007-01-01,both,overall,3946,1491,overall,227200
+Perlis,2008-01-01,both,overall,4175,1618,overall,230100
+Perlis,2009-01-01,both,overall,4237,1580,overall,233000
+Perlis,2010-01-01,both,overall,4114,1683,overall,235800
+Perlis,2011-01-01,both,overall,4161,1637,overall,237300
+Perlis,2012-01-01,both,overall,4143,1655,overall,239400
+Perlis,2013-01-01,both,overall,4050,1741,overall,242100
+Perlis,2014-01-01,both,overall,4509,1671,overall,245100
+Perlis,2015-01-01,both,overall,4315,1767,overall,248500
+Perlis,2016-01-01,both,overall,4392,1884,overall,251000
+Perlis,2017-01-01,both,overall,4447,2004,overall,252000
+Perlis,2018-01-01,both,overall,4371,2042,overall,253500
+Perlis,2019-01-01,both,overall,4060,1996,overall,254000
+Perlis,2020-01-01,both,overall,4101,1950,overall,284900
+Perlis,2021-01-01,both,overall,4076,2234,overall,287600
+Perlis,2022-01-01,both,overall,3746,2422,overall,289800
+Pulau Pinang,2000-01-01,both,overall,27337,7037,overall,1332700
+Pulau Pinang,2001-01-01,both,overall,24712,7162,overall,1361000
+Pulau Pinang,2002-01-01,both,overall,24775,7703,overall,1387300
+Pulau Pinang,2003-01-01,both,overall,23467,7781,overall,1412200
+Pulau Pinang,2004-01-01,both,overall,22943,7813,overall,1436600
+Pulau Pinang,2005-01-01,both,overall,22559,7869,overall,1460400
+Pulau Pinang,2006-01-01,both,overall,22003,7918,overall,1484100
+Pulau Pinang,2007-01-01,both,overall,22429,8316,overall,1507800
+Pulau Pinang,2008-01-01,both,overall,22952,8471,overall,1531300
+Pulau Pinang,2009-01-01,both,overall,22777,8699,overall,1554300
+Pulau Pinang,2010-01-01,both,overall,21172,9063,overall,1575900
+Pulau Pinang,2011-01-01,both,overall,22353,9107,overall,1601000
+Pulau Pinang,2012-01-01,both,overall,23794,9133,overall,1623200
+Pulau Pinang,2013-01-01,both,overall,21499,9538,overall,1662600
+Pulau Pinang,2014-01-01,both,overall,22877,9678,overall,1678100
+Pulau Pinang,2015-01-01,both,overall,22242,10226,overall,1698100
+Pulau Pinang,2016-01-01,both,overall,21781,10729,overall,1717700
+Pulau Pinang,2017-01-01,both,overall,21464,10727,overall,1744100
+Pulau Pinang,2018-01-01,both,overall,20705,11209,overall,1762800
+Pulau Pinang,2019-01-01,both,overall,20200,10896,overall,1768800
+Pulau Pinang,2020-01-01,both,overall,19645,10701,overall,1740400
+Pulau Pinang,2021-01-01,both,overall,18571,13978,overall,1740000
+Pulau Pinang,2022-01-01,both,overall,17731,12920,overall,1740900
+Sabah,2000-01-01,both,overall,49308,5203,overall,2603500
+Sabah,2001-01-01,both,overall,48990,5437,overall,2663300
+Sabah,2002-01-01,both,overall,46119,5864,overall,2719100
+Sabah,2003-01-01,both,overall,44388,6061,overall,2774000
+Sabah,2004-01-01,both,overall,46170,6328,overall,2833400
+Sabah,2005-01-01,both,overall,47160,6563,overall,2897000
+Sabah,2006-01-01,both,overall,46142,6702,overall,2962900
+Sabah,2007-01-01,both,overall,47017,6979,overall,3032300
+Sabah,2008-01-01,both,overall,50272,7394,overall,3105100
+Sabah,2009-01-01,both,overall,52782,7565,overall,3181100
+Sabah,2010-01-01,both,overall,54134,7622,overall,3260000
+Sabah,2011-01-01,both,overall,54990,8095,overall,3345500
+Sabah,2012-01-01,both,overall,58185,8066,overall,3432700
+Sabah,2013-01-01,both,overall,56823,8253,overall,3611500
+Sabah,2014-01-01,both,overall,57397,12188,overall,3669900
+Sabah,2015-01-01,both,overall,54699,12511,overall,3720500
+Sabah,2016-01-01,both,overall,52071,12834,overall,3802800
+Sabah,2017-01-01,both,overall,52528,13719,overall,3855900
+Sabah,2018-01-01,both,overall,53025,13940,overall,3898400
+Sabah,2019-01-01,both,overall,52973,14713,overall,3904400
+Sabah,2020-01-01,both,overall,49587,14868,overall,3418800
+Sabah,2021-01-01,both,overall,41608,18873,overall,3412600
+Sabah,2022-01-01,both,overall,43617,17395,overall,3414900
+Sarawak,2000-01-01,both,overall,47920,8513,overall,2071500
+Sarawak,2001-01-01,both,overall,46098,8893,overall,2115600
+Sarawak,2002-01-01,both,overall,44929,8818,overall,2158300
+Sarawak,2003-01-01,both,overall,44068,9287,overall,2199000
+Sarawak,2004-01-01,both,overall,43545,9506,overall,2240400
+Sarawak,2005-01-01,both,overall,43241,9553,overall,2282400
+Sarawak,2006-01-01,both,overall,42892,9962,overall,2324900
+Sarawak,2007-01-01,both,overall,42549,10020,overall,2366100
+Sarawak,2008-01-01,both,overall,43426,10478,overall,2408400
+Sarawak,2009-01-01,both,overall,43753,11240,overall,2450800
+Sarawak,2010-01-01,both,overall,41474,10396,overall,2487100
+Sarawak,2011-01-01,both,overall,43383,11118,overall,2527900
+Sarawak,2012-01-01,both,overall,43178,11246,overall,2569700
+Sarawak,2013-01-01,both,overall,40413,11231,overall,2642500
+Sarawak,2014-01-01,both,overall,41049,11686,overall,2664000
+Sarawak,2015-01-01,both,overall,39754,12200,overall,2701500
+Sarawak,2016-01-01,both,overall,37985,12608,overall,2738700
+Sarawak,2017-01-01,both,overall,37654,13117,overall,2766300
+Sarawak,2018-01-01,both,overall,36624,13828,overall,2791700
+Sarawak,2019-01-01,both,overall,36672,14025,overall,2806000
+Sarawak,2020-01-01,both,overall,35449,14114,overall,2453700
+Sarawak,2021-01-01,both,overall,31274,17596,overall,2465600
+Sarawak,2022-01-01,both,overall,30937,16627,overall,2473500
+Selangor,2000-01-01,both,overall,91635,12706,overall,4188900
+Selangor,2001-01-01,both,overall,87758,13368,overall,4317500
+Selangor,2002-01-01,both,overall,89735,13922,overall,4446300
+Selangor,2003-01-01,both,overall,89933,14295,overall,4577300
+Selangor,2004-01-01,both,overall,93176,14616,overall,4712800
+Selangor,2005-01-01,both,overall,92456,15371,overall,4849600
+Selangor,2006-01-01,both,overall,94737,15695,overall,4986200
+Selangor,2007-01-01,both,overall,97055,15903,overall,5127100
+Selangor,2008-01-01,both,overall,100284,17649,overall,5268500
+Selangor,2009-01-01,both,overall,103023,18373,overall,5417800
+Selangor,2010-01-01,both,overall,98429,18558,overall,5502100
+Selangor,2011-01-01,both,overall,103686,19352,overall,5600300
+Selangor,2012-01-01,both,overall,107946,21020,overall,5702400
+Selangor,2013-01-01,both,overall,103173,21677,overall,5904700
+Selangor,2014-01-01,both,overall,108932,22647,overall,6051300
+Selangor,2015-01-01,both,overall,108131,23804,overall,6178000
+Selangor,2016-01-01,both,overall,104661,25588,overall,6291500
+Selangor,2017-01-01,both,overall,103987,26733,overall,6380700
+Selangor,2018-01-01,both,overall,102125,27387,overall,6475000
+Selangor,2019-01-01,both,overall,98836,27786,overall,6506100
+Selangor,2020-01-01,both,overall,93577,25405,overall,6994400
+Selangor,2021-01-01,both,overall,90118,42051,overall,7014700
+Selangor,2022-01-01,both,overall,83658,32861,overall,7050300
+Terengganu,2000-01-01,both,overall,24833,4570,overall,902600
+Terengganu,2001-01-01,both,overall,24060,4866,overall,920000
+Terengganu,2002-01-01,both,overall,23205,5051,overall,936600
+Terengganu,2003-01-01,both,overall,22269,5346,overall,951400
+Terengganu,2004-01-01,both,overall,22542,5244,overall,966600
+Terengganu,2005-01-01,both,overall,21966,5368,overall,981400
+Terengganu,2006-01-01,both,overall,21907,5407,overall,995900
+Terengganu,2007-01-01,both,overall,22366,5563,overall,1010400
+Terengganu,2008-01-01,both,overall,23339,5774,overall,1025200
+Terengganu,2009-01-01,both,overall,23887,5978,overall,1040700
+Terengganu,2010-01-01,both,overall,24262,5864,overall,1055400
+Terengganu,2011-01-01,both,overall,24776,6209,overall,1079000
+Terengganu,2012-01-01,both,overall,25698,6177,overall,1094100
+Terengganu,2013-01-01,both,overall,25465,6424,overall,1113400
+Terengganu,2014-01-01,both,overall,27013,6460,overall,1140400
+Terengganu,2015-01-01,both,overall,27629,6715,overall,1161000
+Terengganu,2016-01-01,both,overall,27521,6843,overall,1183400
+Terengganu,2017-01-01,both,overall,27911,7048,overall,1208000
+Terengganu,2018-01-01,both,overall,28242,7099,overall,1228300
+Terengganu,2019-01-01,both,overall,27085,7341,overall,1244500
+Terengganu,2020-01-01,both,overall,27177,6736,overall,1149400
+Terengganu,2021-01-01,both,overall,26337,8469,overall,1170700
+Terengganu,2022-01-01,both,overall,25304,8686,overall,1186600
+Kuala Lumpur,2000-01-01,both,overall,29382,5492,overall,1416000
+Kuala Lumpur,2001-01-01,both,overall,27211,5746,overall,1446200
+Kuala Lumpur,2002-01-01,both,overall,25928,6058,overall,1474100
+Kuala Lumpur,2003-01-01,both,overall,25173,5888,overall,1500500
+Kuala Lumpur,2004-01-01,both,overall,24892,5750,overall,1526400
+Kuala Lumpur,2005-01-01,both,overall,23544,5635,overall,1551800
+Kuala Lumpur,2006-01-01,both,overall,24067,5791,overall,1577500
+Kuala Lumpur,2007-01-01,both,overall,24936,6015,overall,1603300
+Kuala Lumpur,2008-01-01,both,overall,25178,6164,overall,1628900
+Kuala Lumpur,2009-01-01,both,overall,25870,6470,overall,1652800
+Kuala Lumpur,2010-01-01,both,overall,24471,6465,overall,1674800
+Kuala Lumpur,2011-01-01,both,overall,25525,6927,overall,1693000
+Kuala Lumpur,2012-01-01,both,overall,26982,6996,overall,1702100
+Kuala Lumpur,2013-01-01,both,overall,25333,7183,overall,1723400
+Kuala Lumpur,2014-01-01,both,overall,27100,7647,overall,1737400
+Kuala Lumpur,2015-01-01,both,overall,25789,7608,overall,1780400
+Kuala Lumpur,2016-01-01,both,overall,25739,8077,overall,1789700
+Kuala Lumpur,2017-01-01,both,overall,24732,8205,overall,1793200
+Kuala Lumpur,2018-01-01,both,overall,24235,8485,overall,1790000
+Kuala Lumpur,2019-01-01,both,overall,23921,8845,overall,1782500
+Kuala Lumpur,2020-01-01,both,overall,23199,8334,overall,1982100
+Kuala Lumpur,2021-01-01,both,overall,21046,13334,overall,1964000
+Kuala Lumpur,2022-01-01,both,overall,19853,9962,overall,1961200
+Labuan,2000-01-01,both,overall,1495,167,overall,76100
+Labuan,2001-01-01,both,overall,1486,159,overall,77000
+Labuan,2002-01-01,both,overall,1466,200,overall,77800
+Labuan,2003-01-01,both,overall,1584,220,overall,78700
+Labuan,2004-01-01,both,overall,1513,212,overall,79700
+Labuan,2005-01-01,both,overall,1509,209,overall,80800
+Labuan,2006-01-01,both,overall,1587,208,overall,82000
+Labuan,2007-01-01,both,overall,1581,204,overall,83200
+Labuan,2008-01-01,both,overall,1680,243,overall,84600
+Labuan,2009-01-01,both,overall,1656,247,overall,86300
+Labuan,2010-01-01,both,overall,1631,243,overall,88200
+Labuan,2011-01-01,both,overall,1734,218,overall,89400
+Labuan,2012-01-01,both,overall,1773,242,overall,90500
+Labuan,2013-01-01,both,overall,1743,245,overall,91400
+Labuan,2014-01-01,both,overall,1871,274,overall,93800
+Labuan,2015-01-01,both,overall,1953,246,overall,95100
+Labuan,2016-01-01,both,overall,1752,277,overall,96800
+Labuan,2017-01-01,both,overall,1685,247,overall,97600
+Labuan,2018-01-01,both,overall,1691,287,overall,99000
+Labuan,2019-01-01,both,overall,1678,298,overall,99300
+Labuan,2020-01-01,both,overall,1714,319,overall,95100
+Labuan,2021-01-01,both,overall,1522,517,overall,96000
+Labuan,2022-01-01,both,overall,1374,392,overall,96900
+Putrajaya,2010-01-01,both,overall,2430,95,overall,73400
+Putrajaya,2011-01-01,both,overall,2956,113,overall,77500
+Putrajaya,2012-01-01,both,overall,3150,142,overall,78300
+Putrajaya,2013-01-01,both,overall,2972,164,overall,79700
+Putrajaya,2014-01-01,both,overall,3064,194,overall,80900
+Putrajaya,2015-01-01,both,overall,2869,193,overall,83000
+Putrajaya,2016-01-01,both,overall,2569,163,overall,84400
+Putrajaya,2017-01-01,both,overall,2517,229,overall,87500
+Putrajaya,2018-01-01,both,overall,2400,218,overall,97200
+Putrajaya,2019-01-01,both,overall,2316,209,overall,103700
+Putrajaya,2020-01-01,both,overall,2143,211,overall,109200
+Putrajaya,2021-01-01,both,overall,2106,266,overall,115200
+Putrajaya,2022-01-01,both,overall,1839,253,overall,117000
