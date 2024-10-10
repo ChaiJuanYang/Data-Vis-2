@@ -1,7 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Annual Deaths per 1,000 People per State (2012-2022)",
-    "width": 270,
+    "width": 300,
     "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/merged_both_overall_population.csv",  
@@ -17,7 +16,7 @@
         "as": "year"
       },
       {
-        "filter": "datum.year >= 2012 && datum.year <= 2022"  
+        "filter": "datum.year >= 2013 && datum.year <= 2022"  
       }
     ],
     "mark": {
@@ -45,7 +44,7 @@
           "range":["#fee8c0", "#fdbb94", "#fc8d59", "#ef6548", "#d7301f", "#990000"] 
         },
         "legend": {
-          "title": "Deaths per 1,000 People",
+          "title": "Deaths / 1,000 ",
           "labelFontSize": 12,
           "titleFontSize": 14,
           "orient": "right"  

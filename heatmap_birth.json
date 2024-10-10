@@ -1,7 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Annual Births per 1,000 People per State (2012-2022)",
-  "width": 270,
+  "width": 300,
   "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/merged_both_overall_population.csv",  
@@ -17,7 +16,7 @@
       "as": "year"
     },
     {
-      "filter": "datum.year >= 2012 && datum.year <= 2022"  
+      "filter": "datum.year >= 2013 && datum.year <= 2022"  
     }
   ],
   "mark": {
@@ -39,13 +38,13 @@
     "color": {
       "field": "births_per_1000",
       "type": "quantitative",
-      "title": "Births per 1,000 People",
+      "title": "Births / 1,000 ",
       "scale": {
         "domain": [0, 10,20,30],  
         "range": ["#e0f3db", "#a8ddb5", "#0868ac", "#08307b"] 
       },
       "legend": {
-        "title": "Births per 1,000 People",
+        "title": "Births / 1,000 ",
         "labelFontSize": 12,
         "titleFontSize": 14,
         "orient": "right"  

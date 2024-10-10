@@ -1,11 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400,
+  "width": 450,
   "height": 300,
-  "title": "Births per 1,000 Population by State in 2022",
   "data": {
     "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/9e341582c7323c73947620868d9c689d265f3f61/ne_10m_admin_1_states_provinces%20copy.json",
-    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+    "format": {
+      "type": "topojson",
+      "feature": "ne_10m_admin_1_states_provinces"
+    }
   },
   "params": [
     {
@@ -21,9 +23,27 @@
     },
     {
       "name": "StateSelector",
+      "value": "All",  
       "bind": {
         "input": "select",
-        "options": [null, "Johor", "Kedah", "Kelantan", "Kuala Lumpur", "Melaka", "Negeri Sembilan", "Pahang", "Pulau Pinang", "Perak", "Perlis", "Sabah", "Sarawak", "Selangor", "Terengganu","Labuan"],
+        "options": [
+          "All",
+          "Johor",
+          "Kedah",
+          "Kelantan",
+          "Kuala Lumpur",
+          "Melaka",
+          "Negeri Sembilan",
+          "Pahang",
+          "Pulau Pinang",
+          "Perak",
+          "Perlis",
+          "Sabah",
+          "Sarawak",
+          "Selangor",
+          "Terengganu",
+          "Labuan"
+        ],
         "name": "Select State: "
       }
     }
@@ -48,11 +68,9 @@
       "calculate": "ceil(datum.births_per_1000)",
       "as": "births_per_1000_ceiling"
     },
+    {"filter": "datum.births_per_1000_ceiling > birthSlider"},
     {
-      "filter": "datum.births_per_1000_ceiling > birthSlider"
-    },
-    {
-      "filter": "StateSelector == null || datum.properties.name == StateSelector"
+      "filter": "StateSelector == 'All' || datum.properties.name == StateSelector"
     }
   ],
   "layer": [
@@ -64,7 +82,7 @@
           "type": "quantitative",
           "scale": {"scheme": "teals"},
           "legend": {
-            "title": "Births per 1,000 Population",
+            "title": "Births / 1,000",
             "labelFontSize": 12,
             "titleFontSize": 10,
             "titleFontWeight": "bold"
@@ -72,10 +90,27 @@
         },
         "tooltip": [
           {"field": "properties.name", "type": "nominal", "title": "State"},
-          {"field": "births_per_1000", "type": "quantitative", "title": "Births per 1,000 Population", "format":".2f"},
-          {"field": "births_per_1000_ceiling", "type": "quantitative", "title": "Estimated Births per 1,000 Population"},
-          {"field": "annual_birth", "type": "quantitative", "title": "Total Births"},
-          {"field": "population", "type": "quantitative", "title": "Population"}
+          {
+            "field": "births_per_1000",
+            "type": "quantitative",
+            "title": "Births per 1,000 Population",
+            "format": ".2f"
+          },
+          {
+            "field": "births_per_1000_ceiling",
+            "type": "quantitative",
+            "title": "Estimated Births per 1,000 Population"
+          },
+          {
+            "field": "annual_birth",
+            "type": "quantitative",
+            "title": "Total Births"
+          },
+          {"field": "population", 
+          "type": "quantitative",
+            "title": "Population",
+            "format" : ",.0f"
+          }
         ]
       }
     },

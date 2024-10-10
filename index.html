@@ -5,70 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Total Births and Deaths in each State of Malaysia</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
+
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script> 
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script> 
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
     <script src="vega_lite_vjs.js"></script>
-
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
-        <h1>Demographic Trends in Malaysia: Birth and Death Rates by State</h1>
+        <h1>DEMOGRAPHIC TRENDS IN MALAYSIA</h1>
+        <h2>Birth and Death Rates by State</h2>
     </div>
-    <!-- <div class= "container-1">
+    <div class="container-1">
         <h1>
            What Happened in 2022 ? 
-        </h1> -->
-    
-    <div class="container">
-        <!-- Births plot -->
-        <div class="plot-container">
-            <h2>Total Births in each State in 2022</h2>
-            <div id="map_plot"></div>
-            <h2>Donut Chart of Percentage of Births by State in 2022</h2>
-            <div id="donut_birth"></div>
+        </h1>
+        <div class = "container">
+            <div class="plot-container-title">
+                <h1>Births </h1>
+            </div>
+            <div class="plot-container-title">
+                <h1>Deaths</h1>
+            </div>
         </div>
-        
-        <!-- Deaths plot -->
-        <div class="plot-container">
-            <h2>Total Deaths in each State in 2022</h2>
-            <div id="map_plot_death"></div>
-            <h2>Donut Chart of Percentage of Deaths by State in 2022</h2>
-            <div id="donut_death"></div>
-        </div>
-    </div>
 
-    <!-- Paragraph below the plots -->
-    <div class="paragraph-container">
-        <p>
-            The plots above show the total number of births and deaths in each state of Malaysia.
-            <br>
-            It covers statistics collected in the year 2022.
-        </p>
-    </div>
-    
-    <!-- <div class="container"> -->
-        <div class="plot-container">
-            <h2>Birth Gender Proportion in each State</h2>
-            <div id="stacked_birth"></div>
+        <div class="container">
+            <!-- Births plot -->
+            <div class="plot-container">
+                <h2>Births per 1000 Population by State </h2>
+                <div id="map_plot"></div>
+                <div class = "plot-container-content">
+                    <p>This map highlights the birth rates across different states in Malaysia, measured per 1,000 people. The darker shades indicate a higher number of births. Terengganu has the highest birth rate, while Kuala Lumpur and Penang exhibit the lowest rates.</p>
+                </div>  
+            </div>
+            
+            <!-- Deaths plot -->
+            <div class="plot-container">
+                <h2> Deaths per 1000 Population by State </h2>
+                <div id="map_plot_death"></div>
+                <div class = "plot-container-content">
+                    <p>This map represents the death rates across Malaysian states per 1,000 people. The darker areas indicate higher death rates, with Perak standing out as having the highest death rate. Selangor and Sabah have the lowest death rates.</p>
+                </div>
+            </div>
         </div>
-        <div class="plot-container">
-            <h2>Death Gender Proportion in each State</h2>
-            <div id="stacked_death"></div>
+
+        <div class="container">
+            <div class = "plot-container">
+                <h2>Percentage of Births by State</h2>
+                <div id="donut_birth"></div>
+            </div>
+            <div class = "plot-container">
+                <h2> Percentage of Deaths by State</h2>
+                <div id="donut_death"></div>
+            </div>
         </div>
-        <div class = "paragraph-container">
+        <!-- Paragraph below the plots -->
+        <div class="paragraph-container">
             <p>
-                The plots above show the proportion of genders in births and deaths in each state of Malaysia.
-                This approach could better show gender proportions by percentage out of 100% .......
+                The plots above show the total number of births and deaths in each state of Malaysia.
+                <br>
+                It covers statistics collected in the year 2022.
             </p>
         </div>
-    <!-- </div> -->
-    <!-- </div> -->
-    <!-- <div class = "container-2"> -->
+        
+        <div class="container">
+            <div class="plot-container">
+                <h2>Birth Gender Proportion in each State</h2>
+                <div id="stacked_birth"></div>
+            </div>
+            <div class="plot-container">
+                <h2>Death Gender Proportion in each State</h2>
+                <div id="stacked_death"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-2">
         <h1>
-            Ten Years Back in Time from 2012 to 2022
+            Ten Years Back in Time from 2013 to 2022
         </h1>
         <div class="container">
             <div class="plot-container">
@@ -82,17 +101,17 @@
             </div>
         </div>
 
-        <div class = "container">
-            <div class = "plot-container-2">
+        <div class="container">
+            <div class="plot-container-2">
                 <h2>Birth and Death Rates in Each State</h2>
                 <div id="line_bd"></div>
             </div> 
         </div>
-    <!-- </div> -->
+    </div>
 
-    <div class= "text-container">
+    <div class="text-container">
         <br>
-            The data is collected from the Department of Statistics Malaysia.
+        The data is collected from the Department of Statistics Malaysia.
         <br>
     </div>
 </body>

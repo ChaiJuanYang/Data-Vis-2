@@ -1,6 +1,5 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Births and Deaths in Each State (2012-2022)",
     "data": {
       "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_overall.csv",
       "format": {"type": "csv"}
@@ -11,7 +10,7 @@
         "as": "year"
       },
       {
-        "filter": "datum.year >= 2012 && datum.year <= 2022"
+        "filter": "datum.year >= 2013 && datum.year <= 2022"
       },
       {
         "fold": ["annual_birth", "annual_death"],
