@@ -1,73 +1,226 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_overall.csv",
-      "format": {"type": "csv"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/both_overall.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "calculate": "year(datum.date)",
+      "as": "year"
     },
-    "transform": [
-      {
-        "calculate": "year(datum.date)",
-        "as": "year"
-      },
-      {
-        "filter": "datum.year >= 2013 && datum.year <= 2022"
-      },
-      {
-        "fold": ["annual_birth", "annual_death"],
-        "as": ["category", "value"]
-      },
-      {
-        "calculate": "datum.category === 'annual_birth' ? 'Annual Birth' : 'Annual Death'",
-        "as": "category_label"
-      }
-    ],
-    "facet": {
-      "field": "state",  
-      "type": "nominal",
-      "header": {
-        "labelFontSize": 14,  
-        "labelFontWeight": "bold"  
-      }
+    {
+      "filter": "datum.year >= 2013 && datum.year <= 2022"
     },
-    "spec": {
-      "width": 220,
-      "height": 200,
-      "mark": {
-        "type": "line",
-        "point": true
-      },
-      "encoding": {
-        "x": {
-          "field": "year",
-          "type": "ordinal",
-          "title": "Year"
+    {
+      "fold": ["annual_birth", "annual_death"],
+      "as": ["category", "value"]
+    },
+    {
+      "calculate": "datum.category === 'annual_birth' ? 'Annual Birth' : 'Annual Death'",
+      "as": "category_label"
+    }
+  ],
+  "facet": {
+    "field": "state",
+    "type": "nominal",
+    "header": {
+      "labelFontSize": 14,
+      "labelFontWeight": "bold"
+    }
+  },
+  "spec": {
+    "width": 220,
+    "height": 200,
+    "layer": [
+      {
+        "mark": {
+          "type": "line",
+          "point": true
         },
-        "y": {
-          "field": "value",
-          "type": "quantitative",
-          "title": "Count"
-        },
-        "color": {
-          "field": "category_label", 
-          "type": "nominal",
-          "scale": {
-            "domain": ["Annual Birth", "Annual Death"],
-            "range": ["#006400", "#ff7f0e"]
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
           },
-          "title": "Category"
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Count"
+          },
+          "color": {
+            "field": "category_label",
+            "type": "nominal",
+            "scale": {
+              "domain": ["Annual Birth", "Annual Death"],
+              "range": ["#006400", "#ff7f0e"]
+            },
+            "title": "Category"
+          },
+          "tooltip": [
+            {"field": "state", "type": "nominal", "title": "State"},
+            {"field": "year", "type": "ordinal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "Count"},
+            {"field": "category_label", "type": "nominal", "title": "Category"}
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": -5,
+          "dy": -30,
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "color": "black"
         },
-        "tooltip": [
-          {"field": "state", "type": "nominal", "title": "State"},
-          {"field": "year", "type": "ordinal", "title": "Year"},
-          {"field": "value", "type": "quantitative", "title": "Count"},
-          {"field": "category_label", "type": "nominal", "title": "Category"}
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "aggregate": "min"
+          },
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "aggregate": "max"
+          },
+          "text": {
+            "value": "Birth & Death rates were the lowest"
+          }
+        },
+        "transform": [
+          {"filter": "datum.state === 'Labuan'"}
+        ]
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": -5,
+          "dy": -30,
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "black"
+        },
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "aggregate": "min"
+          },
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "aggregate": "max"
+          },
+          "text": {
+            "value": "Birth and Death rates were low"
+          }
+        },
+        "transform": [
+          {"filter": "datum.state === 'Perlis'"}
+        ]
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 5,
+          "dy": 50,
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "black"
+        },
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "aggregate": "min"
+          },
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "aggregate": "max"
+          },
+          "text": {
+            "value": "Birth rates were the highest"
+          }
+        },
+        "transform": [
+          {"filter": "datum.state === 'Selangor'"}
+        ]
+      },{
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": -5,
+          "dy": -30,
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "black"
+        },
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "aggregate": "min"
+          },
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "aggregate": "max"
+          },
+          "text": {
+            "value": "Birth and Death rates were low"
+          }
+        },
+        "transform": [
+          {"filter": "datum.state === 'Putrajaya'"}
+        ]
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 5,
+          "dy": -30,
+          "fontSize": 14,
+          "fontWeight": "bold",
+          "color": "black"
+        },
+        "encoding": {
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "aggregate": "min"
+          },
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "aggregate": "max"
+          },
+          "text": {
+            "value": "Birth rates were realtively high"
+          }
+        },
+        "transform": [
+          {"filter": "datum.state === 'Johor'"}
         ]
       }
-    },
-    "config": {
-      "facet": {
-        "columns": 4
-      }
+      
+    ]
+  },
+  "config": {
+    "facet": {
+      "columns": 4
     }
   }
-  
+}

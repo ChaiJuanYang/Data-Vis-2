@@ -1,6 +1,7 @@
 body {
     font-family: 'Playfair Display', serif; /* Use the embedded font */
     margin: 0;
+    background-color: #f7f6f2;  
 }
 .container {
     display: flex;
@@ -14,11 +15,12 @@ body {
     margin: 4px;
     justify-content: space-between;
     margin-top: 20px;
-    /* transition: background-color 0.3s ease;  */
+    transition: background-color 0.6s ease; 
+    background-color: #f7f6f2;
 }
-
-/* .container-1:hover {
-    background-color: #f4f0de; /* Change to your desired color} */
+.container-1:hover {
+    background-color: #eceae3;
+}
 
 
 .container-2 {
@@ -28,12 +30,12 @@ body {
     margin: 4px;
     justify-content: space-between;
     margin-top: 20px;
-    /* transition: background-color 0.3s ease;  */
+    transition: background-color 0.3s ease; 
+    background-color: #f7f6f2;
 }
 
-/* .container-2:hover {
-    background-color: #f4f0de; /* Change to your desired color }*/
-
+.container-2:hover {
+    background-color: #eceae3; }
 
 .plot-container {
     width: 50%; 
@@ -55,6 +57,9 @@ body {
     justify-content: center; 
     align-items: center; 
     background-color: white;
+    display: flex;
+    flex-direction: column;  /* Arrange child elements vertically */
+    align-items: center; 
 }
 .plot-container-title {
     width: 100%; 
@@ -90,9 +95,33 @@ h2 {
     margin-top: 20px;
     text-align: center;
     width: 100%; 
+    margin-bottom : 10px;
 }
 
  .header {
-    background-color: #f7f6f2;
-    padding: 10px 20px;
+    background-color: #dfdcd1;
+    padding: 10px ;
+    text-align: center;
+    margin : 0;
+}
+
+.header h1 {
+    font-size: 35px;
+}
+.header h3 {
+    font-weight: 100;
+    font-size: 22px;
+}
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    width: 100%;
+    background-color: #f1f1f1;  
+    padding-bottom: 5px;
 }

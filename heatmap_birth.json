@@ -3,59 +3,50 @@
   "width": 300,
   "height": 300,
   "data": {
-    "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/merged_both_overall_population.csv",  
+    "url": "https://raw.githubusercontent.com/ChaiJuanYang/Data-Vis-2/refs/heads/main/merged_both_overall_population%20(1).csv",
     "format": {"type": "csv"}
   },
   "transform": [
     {
-      "calculate": "ceil(datum.annual_birth / datum.population * 1000)", 
+      "calculate": "ceil(datum.annual_birth / datum.population * 1000)",
       "as": "births_per_1000"
     },
-    {
-      "calculate": "year(datum.date)", 
-      "as": "year"
-    },
-    {
-      "filter": "datum.year >= 2013 && datum.year <= 2022"  
-    }
+    {"calculate": "year(datum.date)", "as": "year"},
+    {"filter": "datum.year >= 2013 && datum.year <= 2022"}
   ],
-  "mark": {
-    "type": "rect",
-    "stroke": "black",         
-    "strokeWidth": 0.2        
-  },
+  "mark": {"type": "rect", "stroke": "black", "strokeWidth": 0.2},
   "encoding": {
-    "x": {
-      "field": "year",
-      "type": "ordinal",
-      "title": "Year"
-    },
-    "y": {
-      "field": "state",
-      "type": "nominal",
-      "title": "State"
-    },
+    "x": {"field": "year", "type": "ordinal", "title": "Year"},
+    "y": {"field": "state", "type": "nominal", "title": "State"},
     "color": {
       "field": "births_per_1000",
       "type": "quantitative",
       "title": "Births / 1,000 ",
       "scale": {
-        "domain": [0, 10,20,30],  
-        "range": ["#e0f3db", "#a8ddb5", "#0868ac", "#08307b"] 
+        "domain": [0, 10, 20, 30, 40],
+        "range": ["#e0f3db", "#a8ddb5", "#0868ac", "#08307b", "#19307b"]
       },
       "legend": {
         "title": "Births / 1,000 ",
         "labelFontSize": 12,
         "titleFontSize": 14,
-        "orient": "right"  
+        "orient": "right"
       }
     },
     "tooltip": [
       {"field": "state", "type": "nominal", "title": "State"},
       {"field": "year", "type": "ordinal", "title": "Year"},
-      {"field": "annual_birth", "type": "quantitative", "title": "Total Births"},
+      {
+        "field": "annual_birth",
+        "type": "quantitative",
+        "title": "Total Births"
+      },
       {"field": "population", "type": "quantitative", "title": "Population"},
-      {"field": "births_per_1000", "type": "quantitative", "title": "Estimated Births per 1,000"}
+      {
+        "field": "births_per_1000",
+        "type": "quantitative",
+        "title": "Estimated Births per 1,000"
+      }
     ]
   }
 }

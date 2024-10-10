@@ -19,8 +19,8 @@
 </head>
 <body>
     <div class="header">
-        <h1>Demographic Trends In Malaysia</h1>
-        <h2>Birth and Death Rates by State</h2>
+        <h1>Demographic Trends In Malaysia : Birth and Death Rates by State</h1>
+        <h3>Exploring distributions from 2013 to 2022</h3>
     </div>
     <div class="container-1">
         <h1>
@@ -84,7 +84,7 @@
             <p>
                 The plots above showcases the number of births and deaths in each state of Malaysia.
                 <br>
-                Meanwhile, the gender proportions will be explored as well.
+                Meanwhile, gender proportions will be explored as well.
             </p>
         </div>
         
@@ -94,7 +94,7 @@
                 <div id="stacked_birth"></div>
                 <div class="plot-container-content">
                     <p>
-                        This stacked bar chart shows the gender distribution of <b>births</b> in each state of Malaysia. The blue and pink segments represent male and female births, respectively. The data appears consistent across states, with a <b>generally balanced proportion of 51% male and 49% female births</b>
+                        This stacked bar chart shows the gender distribution of <b>births</b> in each state of Malaysia. The blue and pink segments represent male and female births, respectively. The data appears consistent across states, with a <b>generally balanced proportion of 51% male and 49% female births.</b>
                     </p>
                 </div>
             </div>
@@ -103,12 +103,21 @@
                 <div id="stacked_death"></div>
                 <div class="plot-container-content">
                     <p>
-                        This stacked bar chart shows the gender distribution of <b>deaths</b> in each state of Malaysia. The blue and pink segments represent male and female deaths, respectively. The data appears slightly inconsistent,<b>with minor differences between states but generally covers 55% male and 45% females. </b>
+                        This stacked bar chart shows the gender distribution of <b>deaths</b> in each state of Malaysia. The blue and pink segments represent male and female deaths, respectively. The data appears slightly inconsistent,<b>with minor differences between states but generally covers 55% male & 45% females. </b>
                     </p>
                 </div>
             </div>
         </div>
+
+        <div class="paragraph-container">
+            <p>
+                These plots were placed side by side to ease comparison between births and deaths. 
+                <br>
+                Hover on each segment on the visualization for more details.
+            </p>
+        </div>
     </div>
+
     <div class="container-2">
         <h1>
             Ten Years Back in Time from 2013 to 2022
@@ -119,7 +128,7 @@
                 <div id="heatmap_birth"></div>
                 <div class="plot-container-content">
                     <p>
-                        This heatmap illustrates the total number of <b>births</b> in each state of Malaysia over the past ten years. The darker shades indicate a higher number of births. <b>Terengganu and Kelantan has consistently recorded the highest number of births, while Labuan has the lowest.</b>
+                        This heatmap illustrates the total number of <b>births</b> in each state of Malaysia over the past ten years. The darker shades indicate a higher number of births. <b>Putrajaya had the highest number of births per 1000 population in 2013, while KL and Penang had the lowest number of births per 1000 population in 2021. </b>
                     </p>
                 </div>
             </div>
@@ -127,6 +136,11 @@
             <div class="plot-container">
                 <h2>Total Deaths in each State</h2>
                 <div id="heatmap_death"></div>
+                <div class="plot-container-content">
+                    <p>
+                        This heatmap illustrates the total number of <b>deaths</b> in each state of Malaysia over the past ten years. The darker shades indicate a higher number of deaths. <b>The highest number of deaths recorded was 9 per 1000 population, while Putrajaya had the lowest number of deaths at only 2 per 1000 population in 2016 and 2020. </b>
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -134,14 +148,48 @@
             <div class="plot-container-2">
                 <h2>Birth and Death Rates in Each State</h2>
                 <div id="line_bd"></div>
+                <div class = "container-3">
+                    <div class = "plot-container-content">
+                        <p>
+                            The line charts in small multiples show <b>trends in birth and death rates across Malaysian states from 2013 to 2022 </b>. 
+                            <br>
+                            <br>
+                            Birth rates in most states show a <b>downward trend</b>, indicating fewer annual births, while death rates display a slightly increasing pattern, 
+                            remaining much lower than birth rates overall.              
+                        </p>
+                    </div>  
+                    <div class = "plot-container-content">
+                        <p>
+                        <b>Birth rates</b> in <b>Selangor</b> are the highest, particularly in recent years, while states like <b>Labuan and Perlis</b> show the lowest birth rates throughout the period. 
+                        This distinction highlights demographic differences between states, with <b>larger states like Selangor 
+                        has a higher number of annual births compared to smaller states like Labuan and Perlis.</b>
+                        </p>
+                    </div>  
+                    <div class = "plot-container-content">
+                        <p>
+                            In terms of <b>death rates</b>, the trend is relatively consistent across all states, showing minor increases over the ten-year period. 
+                            <b>Selangor records some of the highest death rates, which correlates with its larger population compared to other states. </b>
+                            Meanwhile, <b>Labuan and Putrajaya </b>have consistently <b>low death rates</b>, reflecting their <b>smaller populations.</b>                                             </p>
+                    </div>     
+                </div>    
             </div> 
         </div>
     </div>
-
-    <div class="text-container">
-        <br>
-        The data is collected from the Department of Statistics Malaysia.
-        <br>
-    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="paragraph-container">
+                <br>
+                Data were collected from the Department of Statistics Malaysia
+                <a href="https://data.gov.my/" target="_blank">data.gov.my</a>
+                <br>
+                Created by :  
+                <a href="https://github.com/ChaiJuanYang" target="_blank">Juan Yang Chai</a>
+                <br>
+                Completion Date : 10th October 2024
+                <br>
+               
+            </div>
+        </div>
+    
 </body>
 </html>
